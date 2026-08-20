@@ -416,7 +416,7 @@ export function PageCanvas({ pageIndex, file, scale, activeTool, color, brushSiz
       });
     }
 
-    const handleKeyDown = (e: KeyboardEvent) => {
+    const handleKeyDown = async (e: KeyboardEvent) => {
       if (!canvas) return;
       if (e.key === 'Delete' || e.key === 'Backspace') {
         const activeObject = canvas.getActiveObject();
@@ -427,6 +427,49 @@ export function PageCanvas({ pageIndex, file, scale, activeTool, color, brushSiz
           }
           canvas.remove(activeObject);
           canvas.discardActiveObject();
+        }
+      }
+      
+      // Undo (Ctrl+Z or Cmd+Z)
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'z') {
+        e.preventDefault();
+        window.dispatchEvent(new CustomEvent('UNDO_ACTION'));
+      }
+      
+      // Copy (Ctrl+C or Cmd+C)
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'c') {
+        const activeObject = canvas.getActiveObject();
+        if (activeObject && !(activeObject.type === 'i-text' && (activeObject as fabric.IText).isEditing)) {
+          activeObject.clone().then((cloned) => {
+            (window as any)._clipboard = cloned;
+          });
+        }
+      }
+
+      // Paste (Ctrl+V or Cmd+V)
+      if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'v') {
+        const clipboard = (window as any)._clipboard;
+        if (clipboard) {
+          clipboard.clone().then((clonedObj: any) => {
+            canvas.discardActiveObject();
+            clonedObj.set({
+              left: clonedObj.left + 20,
+              top: clonedObj.top + 20,
+              evented: true,
+            });
+            if (clonedObj.type === 'activeSelection') {
+              clonedObj.canvas = canvas;
+              clonedObj.forEachObject((obj: any) => {
+                canvas.add(obj);
+              });
+              clonedObj.setCoords();
+            } else {
+              canvas.add(clonedObj);
+            }
+            (window as any)._clipboard = clonedObj;
+            canvas.setActiveObject(clonedObj);
+            canvas.renderAll();
+          });
         }
       }
     };
@@ -480,9 +523,19 @@ export function PageCanvas({ pageIndex, file, scale, activeTool, color, brushSiz
       }
     };
 
+    const handleUpdateTextStyle = (e: any) => {
+      if (!canvas) return;
+      const activeObject = canvas.getActiveObject();
+      if (activeObject && activeObject.type === 'i-text') {
+        activeObject.set(e.detail);
+        canvas.renderAll();
+      }
+    };
+
     window.addEventListener('ADD_STAMP', handleAddStamp);
     window.addEventListener('ADD_IMAGE', handleAddImage);
     window.addEventListener('FORMAT_TEXT', handleFormatText);
+    window.addEventListener('UPDATE_TEXT_STYLE', handleUpdateTextStyle);
 
     // Basic undo/redo via object state tracking (for a single canvas, a robust one is complex)
     // We can at least hook up a simple object remove for 'undo' if we wanted, 
@@ -521,6 +574,7 @@ export function PageCanvas({ pageIndex, file, scale, activeTool, color, brushSiz
       window.removeEventListener('ADD_STAMP', handleAddStamp);
       window.removeEventListener('ADD_IMAGE', handleAddImage);
       window.removeEventListener('FORMAT_TEXT', handleFormatText);
+      window.removeEventListener('UPDATE_TEXT_STYLE', handleUpdateTextStyle);
       window.removeEventListener('keydown', handleKeyDown);
       window.removeEventListener('UNDO_ACTION', handleUndo);
       canvas.off('selection:created', handleSelection);

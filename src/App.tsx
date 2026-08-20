@@ -26,6 +26,7 @@ const CompressPdf = lazyWithRetry(() => import('./tools/CompressPdf').then(m => 
 const ProtectPdf = lazyWithRetry(() => import('./tools/ProtectPdf').then(m => ({ default: m.ProtectPdf })));
 const UnlockPdf = lazyWithRetry(() => import('./tools/UnlockPdf').then(m => ({ default: m.UnlockPdf })));
 const GenericTool = lazyWithRetry(() => import('./tools/GenericTool').then(m => ({ default: m.GenericTool })));
+const DrawOnPdf = lazyWithRetry(() => import('./tools/DrawOnPdf').then(m => ({ default: m.DrawOnPdf })));
 const EditPdf = lazyWithRetry(() => import('./tools/EditPdf').then(m => ({ default: m.EditPdf })));
 const GenericInfoPage = lazyWithRetry(() => import('./pages/info/GenericInfoPage').then(m => ({ default: m.GenericInfoPage })));
 const FaqPage = lazyWithRetry(() => import('./pages/FaqPage').then(m => ({ default: m.FaqPage })));
@@ -153,7 +154,7 @@ const PublicRoutes = () => (
                   <Route path="annotate-pdf" element={<GenericTool />} />
                   <Route path="add-text-pdf" element={<GenericTool />} />
                   <Route path="add-image-pdf" element={<GenericTool />} />
-                  <Route path="draw-on-pdf" element={<GenericTool />} />
+                  <Route path="draw-on-pdf" element={<DrawOnPdf />} />
 
                   <Route path="faq" element={<FaqPage />} />
                   <Route path="about" element={<AboutPage />} />

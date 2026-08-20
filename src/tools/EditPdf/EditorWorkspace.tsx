@@ -124,6 +124,66 @@ export function EditorWorkspace({ file }: { file: File }) {
             });
           }
 
+          // Export text layers and masking rects natively
+          const nativeObjects = objects.filter((o: any) => o.type === 'i-text' || o.type === 'rect');
+          if (nativeObjects.length > 0) {
+            for (const obj of nativeObjects) {
+              const page = pages[i];
+              const { height } = page.getSize();
+              
+              // Fabric coordinates are from top-left, pdf-lib from bottom-left
+              const x = obj.left! / scale;
+              const y = height - (obj.top! / scale) - ((obj.height || 0) / scale * (obj.scaleY || 1));
+              
+              if (obj.type === 'rect') {
+                const w = ((obj.width || 0) * (obj.scaleX || 1)) / scale;
+                const h = ((obj.height || 0) * (obj.scaleY || 1)) / scale;
+                
+                // Parse fill color
+                let r=1, g=1, b=1, opacity=1;
+                if (obj.fill === '#ffffff') {
+                  r=1; g=1; b=1;
+                } else if (typeof obj.fill === 'string' && obj.fill.startsWith('#')) {
+                  const hex = obj.fill.replace('#', '');
+                  r = parseInt(hex.substring(0, 2), 16) / 255 || 0;
+                  g = parseInt(hex.substring(2, 4), 16) / 255 || 0;
+                  b = parseInt(hex.substring(4, 6), 16) / 255 || 0;
+                }
+                
+                // Draw mask rectangle
+                import('pdf-lib').then(({ rgb }) => {
+                   page.drawRectangle({
+                    x, y, width: w, height: h,
+                    color: rgb(r, g, b),
+                  });
+                });
+              }
+              // i-text is natively rendered if it's the injected text replacement, however,
+              // for robust font handling in pdf-lib across multiple languages, we can just 
+              // keep it in the rasterized PNG layer for perfectly identical visual reproduction,
+              // BUT we will also inject invisible text underneath it for text selection/searchability!
+              
+              if (obj.type === 'i-text') {
+                 // The text will be visually rasterized in the PNG to preserve exact font rendering,
+                 // but we also add an invisible text layer to the PDF for search/selection.
+                 const textStr = (obj as any).text || '';
+                 const fontSize = ((obj as any).fontSize || 16) / scale;
+                 
+                 import('pdf-lib').then(async ({ rgb, StandardFonts }) => {
+                   const helvetica = await pdfDoc.embedFont(StandardFonts.Helvetica);
+                   page.drawText(textStr, {
+                     x, 
+                     y: y + (fontSize * 0.2), // baseline adjustment
+                     size: fontSize,
+                     font: helvetica,
+                     color: rgb(0,0,0),
+                     opacity: 0, // INVISIBLE TEXT FOR SEARCHABILITY!
+                   });
+                 });
+              }
+            }
+          }
+
           const dataUrl = fabricCanvas.toDataURL({ format: 'png' });
           if (dataUrl === 'data:,') continue; // empty canvas
           
