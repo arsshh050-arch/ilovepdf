@@ -1,0 +1,25 @@
+User-agent: *
+Allow: /
+Allow: /favicon.ico
+Allow: /favicon-*.png
+Allow: /apple-touch-icon.png
+Allow: /assets/
+
+# Disallow private user/admin/session endpoints
+Disallow: /admin/
+Disallow: /user/
+Disallow: /api/
+Disallow: /download/
+Disallow: /downloads/
+Disallow: /result/
+Disallow: /session/
+
+User-agent: Googlebot-Image
+Allow: /favicon.ico
+Allow: /favicon-*.png
+Allow: /apple-touch-icon.png
+Allow: /ilovepdf.svg
+Allow: /og-image.png
+
+# Sitemap location
+Sitemap: https://www.ilovepdf.in/sitemap.xml

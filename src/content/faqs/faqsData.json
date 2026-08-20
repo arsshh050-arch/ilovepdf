@@ -1,0 +1,725 @@
+[
+  {
+    "id": "gen-1",
+    "category": "General",
+    "question": "What exactly is ilovepdf.in and how does it assist users?",
+    "answer": "ilovepdf.in is an all-in-one web-based application designed to streamline your document workflows. It allows you to edit, convert, compress, and secure your PDF files directly from your internet browser, removing the need for desktop software downloads."
+  },
+  {
+    "id": "gen-2",
+    "category": "General",
+    "question": "Which document management features can I find on this platform?",
+    "answer": "Our platform provides an extensive suite of digital document solutions. You can easily merge, split, compress, annotate, e-sign, and password-protect PDFs. Additionally, we support seamless conversions to and from common formats like Microsoft Word, Excel, PowerPoint, and high-quality JPEG images."
+  },
+  {
+    "id": "gen-3",
+    "category": "General",
+    "question": "Is there any software installation required to use these tools?",
+    "answer": "No local software downloads or browser plug-ins are necessary. Every tool runs securely in the cloud, allowing you to modify and optimize your files instantly using any active web browser."
+  },
+  {
+    "id": "gen-4",
+    "category": "General",
+    "question": "Can I access and use the platform on my smartphone or tablet?",
+    "answer": "Yes. Our website is built with a fully responsive layout, making it easy to manage, convert, and edit documents directly from your mobile browser while on the go."
+  },
+  {
+    "id": "gen-5",
+    "category": "General",
+    "question": "Am I required to register or sign up to process files?",
+    "answer": "No registration is required to use our core features. You can upload and process documents immediately as a guest. Creating a free account, however, unlocks higher processing caps and better file management options."
+  },
+  {
+    "id": "gen-6",
+    "category": "General",
+    "question": "Which web browsers are compatible with your services?",
+    "answer": "Our system is optimized to work smoothly on all modern web browsers, including Google Chrome, Apple Safari, Mozilla Firefox, and Microsoft Edge, across both desktop and mobile platforms."
+  },
+  {
+    "id": "gen-7",
+    "category": "General",
+    "question": "Is it possible to process more than one document at the same time?",
+    "answer": "Yes, our tools feature batch-processing capabilities. You can upload multiple documents simultaneously to merge them, compress them in bulk, or convert them in a single session."
+  },
+  {
+    "id": "gen-8",
+    "category": "General",
+    "question": "Will editing my files online modify the original documents stored on my device?",
+    "answer": "Not at all. The processing occurs on a copy of your document uploaded securely to our servers. Your original local file remains completely untouched and safe on your device."
+  },
+  {
+    "id": "gen-9",
+    "category": "General",
+    "question": "Are these document utilities compatible with all operating systems?",
+    "answer": "Absolutely. Since the platform is entirely cloud-based, it functions independently of your operating system. It works seamlessly across Windows, macOS, Linux, iOS, and Android."
+  },
+  {
+    "id": "gen-10",
+    "category": "General",
+    "question": "Are there any fees associated with using these PDF tools?",
+    "answer": "We offer a generous free tier that covers standard, day-to-day document tasks. For users requiring high-volume processing, larger file size limits, or advanced features, we provide premium upgrade options."
+  },
+  {
+    "id": "gen-11",
+    "category": "General",
+    "question": "Is there a limit on the file size I can upload?",
+    "answer": "Your upload capacity is determined by your account level and the specific tool you are using. Free visitors enjoy generous limits that cover standard documents, while signing up for a free or premium account unlocks much larger file thresholds."
+  },
+  {
+    "id": "gen-12",
+    "category": "General",
+    "question": "Does this platform work without an internet connection?",
+    "answer": "Currently, our services operate entirely in the cloud. You will need an active internet connection to upload, process, and download your documents securely."
+  },
+  {
+    "id": "gen-13",
+    "category": "General",
+    "question": "Are there daily restrictions on the number of files I can convert?",
+    "answer": "To maintain optimal performance for everyone, guest users have a daily processing limit. You can easily raise or remove these restrictions by registering for an account or upgrading your plan."
+  },
+  {
+    "id": "gen-14",
+    "category": "General",
+    "question": "What should I do if I accidentally upload the wrong document?",
+    "answer": "If the upload is still in progress, you can cancel it directly on the screen or refresh your browser. If the system has already begun processing, let it finish and simply avoid downloading the output file."
+  },
+  {
+    "id": "gen-15",
+    "category": "General",
+    "question": "Can I access a history of my processed documents?",
+    "answer": "Yes, registered users can view their recent activity and active sessions directly from their account dashboard, subject to their personal privacy preferences."
+  },
+  {
+    "id": "merge-1",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "What is the process for combining several PDFs into a single file?",
+    "answer": "Head over to our <a href=\"/merge-pdf\" class=\"text-blue-600 hover:underline\">Merge PDF tool</a>, upload the files you want to join, and drag the thumbnails to arrange them in your desired sequence. Once ready, click the button to merge them into a single document."
+  },
+  {
+    "id": "merge-2",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Am I able to rearrange the pages or files before joining them?",
+    "answer": "Absolutely. After uploading your documents, you can freely drag and drop the file thumbnails to set the exact order you want them to appear in the final merged PDF."
+  },
+  {
+    "id": "merge-3",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Is there a cap on the number of PDFs I can merge at once?",
+    "answer": "You can combine multiple files in a single session. The exact number of documents you can merge simultaneously depends on your account type and the cumulative file size of your upload."
+  },
+  {
+    "id": "merge-4",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Can secured or password-protected PDFs be merged?",
+    "answer": "Yes, but if any of your uploaded PDFs are encrypted with an open password, you must enter the correct password to unlock them before our system can combine them."
+  },
+  {
+    "id": "merge-5",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Will the quality of my documents decrease after merging them?",
+    "answer": "Not at all. The merging process safely chains your documents together without compressing or altering the content, ensuring that original text, layout, and image resolutions remain perfectly intact."
+  },
+  {
+    "id": "merge-6",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Is it possible to upload extra documents once I've already started?",
+    "answer": "Absolutely. You can import additional files at any point before clicking the merge button. Simply click the plus icon or drop more files directly into the browser window to expand your list."
+  },
+  {
+    "id": "merge-7",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "How do I change the sequence of my uploaded files?",
+    "answer": "Rearranging your documents is effortless. Just click and hold any file thumbnail, drag it to your preferred position in the lineup, and release to lock in the new sequence."
+  },
+  {
+    "id": "merge-8",
+    "category": "Merge",
+    "relatedTool": "/merge-pdf",
+    "question": "Does this file-combining tool work on mobile web browsers?",
+    "answer": "Yes, our <a href=\"/merge-pdf\" class=\"text-blue-600 hover:underline\">Merge PDF tool</a> is fully optimized for smartphones and tablets. You can easily upload files directly from your device's local storage and use simple touch gestures to organize and combine them."
+  },
+  {
+    "id": "split-1",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "What is the process for breaking a PDF down into individual page files?",
+    "answer": "Simply upload your document, select the option to extract every page individually, and run the tool. The system will instantly convert each sheet of your original PDF into its own separate file."
+  },
+  {
+    "id": "split-2",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Can I choose specific pages to pull out from a larger document?",
+    "answer": "Yes, you have complete control. Use our interactive page selector to highlight the exact sheets you want to keep, or type in specific page numbers to extract only your target content into a fresh file."
+  },
+  {
+    "id": "split-3",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Is it possible to extract a custom range of pages from my PDF?",
+    "answer": "Definitely. You can define custom intervals (such as pages 4 to 10). Our tool cleanly isolates that specific section and generates a new document containing only those pages."
+  },
+  {
+    "id": "split-4",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Can I partition a single PDF into several distinct files at once?",
+    "answer": "Yes, you can configure multiple custom ranges simultaneously. The system will process your original file and generate a separate PDF document for each range you specify."
+  },
+  {
+    "id": "split-5",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Will my extracted files be delivered in a compressed ZIP format?",
+    "answer": "Yes. To save you time and bandwidth, whenever your split request generates multiple files, our system automatically bundles them into a single, easy-to-download ZIP folder."
+  },
+  {
+    "id": "split-6",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Can I use the split feature to discard unwanted pages?",
+    "answer": "Yes. By selecting only the essential pages you want to keep and extracting them, the unselected pages are naturally left out, giving you a clean, trimmed document."
+  },
+  {
+    "id": "split-7",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "What occurs if I input a page number that doesn't exist?",
+    "answer": "Our system features real-time validation. If you accidentally input a page number that exceeds the actual length of your file, the interface will prompt you to correct it, preventing any processing errors."
+  },
+  {
+    "id": "split-8",
+    "category": "Split",
+    "relatedTool": "/split-pdf",
+    "question": "Will dividing a PDF into separate files make them smaller in size?",
+    "answer": "Absolutely. By breaking a large document into smaller segments, each new file contains only a fraction of the original pages and media, resulting in significantly lower individual file sizes."
+  },
+  {
+    "id": "comp-1",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "What is the easiest way to shrink a heavy PDF document?",
+    "answer": "Simply drop your file into our <a href=\"/compress-pdf\" class=\"text-blue-600 hover:underline\">PDF Compressor</a> and choose your preferred settings. Our tool automatically resizes heavy graphics and discards redundant metadata to deliver a lightweight file."
+  },
+  {
+    "id": "comp-2",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Does compressing a PDF ruin the quality of the images inside?",
+    "answer": "It depends on the settings you choose. While maximum compression prioritizes file size by lowering image resolution, our balanced compression option is designed to keep your visuals sharp and legible while shedding unnecessary digital weight."
+  },
+  {
+    "id": "comp-3",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Why did my PDF file size barely change after compression?",
+    "answer": "This typically happens if the file contains mostly plain text and vector graphics rather than heavy images, or if the document was already fully optimized before. In these cases, there is very little digital bloat left to safely remove."
+  },
+  {
+    "id": "comp-4",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Is it possible to select different levels of compression?",
+    "answer": "Yes, you have full control. You can select from multiple compression profiles\u2014ranging from high compression for maximum space savings to low compression for preserving perfect image quality."
+  },
+  {
+    "id": "comp-5",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Will compressing my PDF delete any pages or text?",
+    "answer": "Not at all. The compression process only targets hidden metadata, redundant font data, and oversized images. Your written content, layout, and page count will remain exactly as they were."
+  },
+  {
+    "id": "comp-6",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Can I use this tool to make a PDF small enough to email?",
+    "answer": "Yes, this is one of the main benefits. Shrinking your document helps you bypass the standard 20MB or 25MB attachment limits enforced by most email providers, ensuring your files send without issues."
+  },
+  {
+    "id": "comp-7",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Does compression work on scanned paper documents?",
+    "answer": "Yes, it works exceptionally well. Scanned PDFs are essentially large image files packaged together, which makes them highly compressible. Our engine optimizes these image layers to drastically reduce the overall file size."
+  },
+  {
+    "id": "comp-8",
+    "category": "Compress",
+    "relatedTool": "/compress-pdf",
+    "question": "Are links and bookmarks preserved after compressing a PDF?",
+    "answer": "Absolutely. Our optimization process is non-destructive to interactive elements, meaning all your hyperlinks, bookmarks, and structural directories will remain fully functional."
+  },
+  {
+    "id": "conv-1",
+    "category": "Convert",
+    "relatedTool": "/pdf-to-word",
+    "question": "What is the process for changing a PDF into an editable Word document?",
+    "answer": "Simply load your document into our <a href=\"/pdf-to-word\" class=\"text-blue-600 hover:underline\">PDF to Word converter</a>. Our system will analyze and rebuild the text, layout, and formatting into a fully editable Microsoft Word (.docx) file in seconds."
+  },
+  {
+    "id": "conv-2",
+    "category": "Convert",
+    "relatedTool": "/pdf-to-word",
+    "question": "Will my document's original layout remain intact after converting from PDF to Word?",
+    "answer": "Yes, our conversion engine is built to carefully reconstruct your document's layout, maintaining elements like paragraphs, tables, and headers. While the vast majority of files translate perfectly, extremely complex designs might occasionally need slight manual touch-ups."
+  },
+  {
+    "id": "conv-3",
+    "category": "Convert",
+    "question": "What is the process for saving a Word document as a PDF?",
+    "answer": "Simply upload your .doc or .docx file to our Word to PDF converter. Our tool locks in your original formatting, fonts, and layout, creating a secure, universally readable PDF that looks exactly like your original document."
+  },
+  {
+    "id": "conv-4",
+    "category": "Convert",
+    "question": "Is it possible to transform a PDF file into an editable Excel sheet?",
+    "answer": "Absolutely. Our PDF to Excel tool scans the formatting of your document, maps out the rows and columns, and extracts the data directly into a fully editable .xlsx file."
+  },
+  {
+    "id": "conv-5",
+    "category": "Convert",
+    "question": "Will the tool accurately extract tables from my PDF into Excel?",
+    "answer": "Yes, the extraction engine is optimized to identify gridlines, borders, and data alignments within your PDF, ensuring that tables are transferred cleanly into structured Excel cells without losing their format."
+  },
+  {
+    "id": "conv-6",
+    "category": "Convert",
+    "question": "How can I turn a PDF document into a PowerPoint presentation?",
+    "answer": "Just drop your file into our PDF to PowerPoint tool. The converter turns every page of your PDF into an individual slide in a .pptx presentation, keeping your text editable and layouts clean wherever possible."
+  },
+  {
+    "id": "conv-7",
+    "category": "Convert",
+    "relatedTool": "/jpg-to-pdf",
+    "question": "Is there a way to combine multiple JPG images into a single PDF?",
+    "answer": "Yes, you can upload several JPG or PNG files to our <a href=\"/jpg-to-pdf\" class=\"text-blue-600 hover:underline\">JPG to PDF converter</a>. The tool will automatically sequence and merge them into one organized PDF file."
+  },
+  {
+    "id": "conv-8",
+    "category": "Convert",
+    "question": "Can I save individual pages of a PDF as separate JPG images?",
+    "answer": "Yes. Our PDF to JPG tool lets you extract every page of your document and convert them into high-resolution, standalone image files quickly."
+  },
+  {
+    "id": "conv-9",
+    "category": "Convert",
+    "question": "Will the PDF to JPG converter make a separate image for every single page?",
+    "answer": "Yes, indeed. The converter processes each page of your PDF into its own individual JPG file. For your convenience, all these images are packaged together in a single, easy-to-download ZIP folder."
+  },
+  {
+    "id": "conv-10",
+    "category": "Convert",
+    "question": "Does your image-to-PDF tool support PNG files?",
+    "answer": "Yes, our converter fully supports PNG, JPG, and TIFF formats. You can easily adjust page orientation, customize margins, and compile your images into a polished PDF document."
+  },
+  {
+    "id": "conv-11",
+    "category": "Convert",
+    "question": "Is it possible to convert a webpage or HTML file into a PDF?",
+    "answer": "Yes, it is. Simply enter a live URL or upload an HTML file to our HTML to PDF tool. Our system renders the webpage exactly as it appears online and saves it as a high-quality, static PDF."
+  },
+  {
+    "id": "conv-12",
+    "category": "Convert",
+    "question": "What is PDF/A?",
+    "answer": "PDF/A is a standardized, specialized version of the PDF format designed specifically for the long-term archiving of digital documents. It embeds all fonts and colors to ensure the file looks identical decades from now."
+  },
+  {
+    "id": "conv-13",
+    "category": "Convert",
+    "question": "Why would I convert a PDF to PDF/A?",
+    "answer": "You should convert documents to PDF/A when required by legal regulations, government bodies, or corporate compliance policies for secure, long-term archival storage without reliance on external software dependencies."
+  },
+  {
+    "id": "conv-14",
+    "category": "Convert",
+    "question": "Can scanned PDFs be converted to editable Word files?",
+    "answer": "Yes, but this process requires Optical Character Recognition (OCR). Standard conversion treats scanned pages as flat images, whereas OCR conversion actively analyzes the image to extract recognizable, editable text characters."
+  },
+  {
+    "id": "conv-15",
+    "category": "Convert",
+    "question": "Why did my converted Word file lose some fonts?",
+    "answer": "If the original PDF utilized proprietary or highly custom fonts that are not installed on your operating system, Microsoft Word will substitute them with standard default fonts upon opening the converted file."
+  },
+  {
+    "id": "edit-1",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I edit a PDF online?",
+    "answer": "Yes, you can upload your document to the <a href=\"/edit-pdf\" class=\"text-blue-600 hover:underline\">Edit PDF tool</a> in your browser to make visual annotations, add structural elements, and modify the document layout without installing desktop software."
+  },
+  {
+    "id": "edit-2",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I add text to a PDF?",
+    "answer": "Yes, the editor allows you to overlay new text boxes onto any page. You can customize the font size, color, and typographic styling of your inserted text."
+  },
+  {
+    "id": "edit-3",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I add images to a PDF?",
+    "answer": "Yes. You can upload local images (such as logos or supplementary graphics) and place them anywhere on the document canvas, with full controls to resize and reposition them."
+  },
+  {
+    "id": "edit-4",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I draw or highlight on a PDF?",
+    "answer": "Absolutely. The editor includes freehand drawing tools and dedicated highlighter brushes, making it easy to review documents, emphasize key paragraphs, or sketch diagrams directly on the page."
+  },
+  {
+    "id": "edit-5",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I add a watermark?",
+    "answer": "Yes, using the dedicated watermark tool, you can stamp custom text or an image across multiple pages simultaneously, allowing you to configure opacity, rotation, and exact placement."
+  },
+  {
+    "id": "edit-6",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I add page numbers?",
+    "answer": "Yes. You can batch-process your document to automatically insert sequential page numbers into the headers or footers, with full control over the starting number, margin positioning, and font styling."
+  },
+  {
+    "id": "edit-7",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I rotate PDF pages?",
+    "answer": "Yes, if a document was scanned upside down or sideways, you can use the rotation tool to permanently correct the orientation of specific pages or the entire file in 90-degree increments."
+  },
+  {
+    "id": "edit-8",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I crop PDF pages?",
+    "answer": "Yes, you can draw a custom crop box to trim out wide margins, remove unwanted peripheral content, and standardize the canvas size across your document."
+  },
+  {
+    "id": "edit-9",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I fill PDF forms?",
+    "answer": "If the PDF contains interactive form fields, our editor interface will generally allow you to select those fields and type in your information before exporting the flattened, completed document."
+  },
+  {
+    "id": "edit-10",
+    "category": "Edit",
+    "relatedTool": "/edit-pdf",
+    "question": "Can I remove sensitive information from a PDF?",
+    "answer": "While you can place black boxes over text, true permanent redaction requires specialized tools that strip the underlying text data. Simple visual overlays may not prevent someone from copying the hidden text beneath."
+  },
+  {
+    "id": "sec-1",
+    "category": "Security",
+    "relatedTool": "/sign-pdf",
+    "question": "How do I sign a PDF online?",
+    "answer": "Navigate to the <a href=\"/sign-pdf\" class=\"text-blue-600 hover:underline\">Sign PDF tool</a>, upload your contract or form, and use the signature interface to place your secure electronic signature onto the designated lines before downloading the finalized file."
+  },
+  {
+    "id": "sec-2",
+    "category": "Security",
+    "relatedTool": "/sign-pdf",
+    "question": "Can I draw my signature?",
+    "answer": "Yes, the signing interface provides a canvas where you can use your mouse, trackpad, or touchscreen stylus to physically draw a natural signature."
+  },
+  {
+    "id": "sec-3",
+    "category": "Security",
+    "relatedTool": "/sign-pdf",
+    "question": "Can I upload a signature image?",
+    "answer": "Yes. If you already have a scanned image of your physical signature, you can upload it directly into the tool and stamp it onto the document canvas."
+  },
+  {
+    "id": "sec-4",
+    "category": "Security",
+    "relatedTool": "/sign-pdf",
+    "question": "Can I type a signature?",
+    "answer": "Yes, you can type your name and select from a variety of cursive and formal fonts to instantly generate a clean, professional electronic signature."
+  },
+  {
+    "id": "sec-5",
+    "category": "Security",
+    "question": "How do I password-protect a PDF?",
+    "answer": "Use the Protect PDF tool to encrypt your document. You will be prompted to define a strong password, which will be strictly required by any software attempting to open the file in the future."
+  },
+  {
+    "id": "sec-6",
+    "category": "Security",
+    "question": "Can I remove a PDF password?",
+    "answer": "Yes, you can use the Unlock PDF tool to permanently strip the encryption from a file, provided you currently know the valid password required to authorize the removal."
+  },
+  {
+    "id": "sec-7",
+    "category": "Security",
+    "question": "What password do I need to unlock a PDF?",
+    "answer": "You must possess the specific \"Open\" password originally set by the author or creator of the document in order to decrypt the file contents successfully."
+  },
+  {
+    "id": "sec-8",
+    "category": "Security",
+    "question": "Can ilovepdf.in bypass a password I do not know?",
+    "answer": "No. Unlocking should require the correct password or proper authorization. Our platform does not provide malicious brute-force decryption services to bypass secure author encryption."
+  },
+  {
+    "id": "sec-9",
+    "category": "Security",
+    "question": "How can I redact sensitive information from a PDF?",
+    "answer": "To securely redact information, you must use a dedicated redaction utility that completely purges the text data from the underlying document code, rather than simply drawing a black rectangle over the visual layer."
+  },
+  {
+    "id": "sec-10",
+    "category": "Security",
+    "question": "Does protecting a PDF stop everyone from copying its content?",
+    "answer": "You can apply \"Permissions Passwords\" to restrict editing, printing, and text copying. However, motivated users can still utilize screen capture or OCR software to extract visual information regardless of internal file restrictions."
+  },
+  {
+    "id": "ocr-1",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "What is OCR?",
+    "answer": "OCR stands for Optical Character Recognition. It is an advanced technology that scans image files and visual documents, identifies the shapes of letters, and translates them into actual, machine-readable text data."
+  },
+  {
+    "id": "ocr-2",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "What is an OCR PDF?",
+    "answer": "An OCR PDF is a standard document that has been processed to include an invisible layer of searchable text mathematically aligned directly over the scanned images of words, allowing you to highlight and search."
+  },
+  {
+    "id": "ocr-3",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "How can I make a scanned PDF searchable?",
+    "answer": "Upload your image-based document to the <a href=\"/ocr-pdf\" class=\"text-blue-600 hover:underline\">OCR PDF tool</a>. The engine will scan the visual layers, generate a text overlay, and return a file where you can use Ctrl+F to find specific words."
+  },
+  {
+    "id": "ocr-4",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Can OCR extract text from scanned documents?",
+    "answer": "Yes, this is its primary function. You can run OCR on a scanned receipt or contract and export the resulting text data directly into a format like Microsoft Word or a plain text file."
+  },
+  {
+    "id": "ocr-5",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Can OCR recognize handwritten text?",
+    "answer": "Modern OCR engines perform exceptionally well on printed fonts and typeset documents. While some advanced models attempt to read handwriting, highly stylized or messy cursive is often misinterpreted."
+  },
+  {
+    "id": "ocr-6",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Does OCR work with low-quality scans?",
+    "answer": "OCR accuracy drops significantly if the source image is blurry, skewed, or suffers from heavy artifacting and poor contrast. For the best results, you should ensure your documents are scanned at 300 DPI or higher."
+  },
+  {
+    "id": "ocr-7",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Can OCR preserve the original PDF layout?",
+    "answer": "Yes, when creating a searchable PDF, the visual layout remains completely untouched while the text layer is injected invisibly behind it. When converting to Word, the engine attempts to recreate the spatial layout using standard document formatting."
+  },
+  {
+    "id": "ocr-8",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Why does OCR sometimes make mistakes?",
+    "answer": "OCR relies on pattern recognition. Similar character shapes (like a capital \"I\" and a lowercase \"l\", or a \"0\" and an \"O\") can confuse the engine, especially if the source scan is low resolution or heavily compressed."
+  },
+  {
+    "id": "ocr-9",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Which languages are supported?",
+    "answer": "Our OCR engine currently supports major global languages including English, Spanish, French, German, and standard Latin-character-based alphabets. Ensure you specify the correct document language before processing."
+  },
+  {
+    "id": "ocr-10",
+    "category": "OCR",
+    "relatedTool": "/ocr-pdf",
+    "question": "Is OCR processing slower than normal PDF tools?",
+    "answer": "Yes, because optical character recognition requires intense computational pattern matching across complex images, it will naturally take longer to process than a simple page split or file merge operation."
+  },
+  {
+    "id": "ai-1",
+    "category": "AI",
+    "question": "What is an AI PDF summarizer?",
+    "answer": "An AI PDF summarizer utilizes advanced large language models to analyze the text data within a massive document and automatically generate a concise, digestible overview of its core arguments and key points."
+  },
+  {
+    "id": "ai-2",
+    "category": "AI",
+    "question": "How does PDF summarization work?",
+    "answer": "The platform first extracts the raw text layer from your document, feeds it into an artificial intelligence model with specific prompt instructions, and returns the synthesized output directly to your screen."
+  },
+  {
+    "id": "ai-3",
+    "category": "AI",
+    "question": "Can I ask questions about a PDF?",
+    "answer": "Yes, our AI chat interface allows you to interrogate the document. You can type specific questions, and the AI will scan the text to provide answers based exclusively on the uploaded content."
+  },
+  {
+    "id": "ai-4",
+    "category": "AI",
+    "question": "Can I translate a PDF?",
+    "answer": "Yes, the AI integration can extract the text structure, translate the paragraphs into your target language, and generate a new document containing the translated text."
+  },
+  {
+    "id": "ai-5",
+    "category": "AI",
+    "question": "Will PDF formatting remain identical after translation?",
+    "answer": "Because different languages require different character counts and word lengths, perfect formatting preservation is extremely difficult. The AI prioritizes text accuracy, which may result in minor layout shifts."
+  },
+  {
+    "id": "ai-6",
+    "category": "AI",
+    "question": "Can AI summarize scanned PDFs?",
+    "answer": "Standard AI models require readable text. To summarize a scanned image, the document must first be processed through our OCR engine to extract the text before the AI can analyze it."
+  },
+  {
+    "id": "ai-7",
+    "category": "AI",
+    "question": "Does AI process the entire document?",
+    "answer": "Depending on the total token limit of the model being utilized, extremely massive documents (e.g., hundreds of pages) may be truncated or summarized in sequential chunks to fit memory constraints."
+  },
+  {
+    "id": "ai-8",
+    "category": "AI",
+    "question": "Are AI summaries always accurate?",
+    "answer": "AI-generated summaries may contain errors, hallucinations, or misinterpreted context. Important information should always be verified against the original document source."
+  },
+  {
+    "id": "priv-1",
+    "category": "Privacy",
+    "question": "Are my PDF files private?",
+    "answer": "Yes. We respect document confidentiality. Your files are processed securely and are never shared, sold, or exposed to third parties or other users of the platform."
+  },
+  {
+    "id": "priv-2",
+    "category": "Privacy",
+    "question": "How are uploaded files processed?",
+    "answer": "Files are uploaded via a secure encrypted connection to our automated processing servers. The operation is executed in a sandboxed memory environment, and the resulting output is generated without human intervention."
+  },
+  {
+    "id": "priv-3",
+    "category": "Privacy",
+    "question": "How long are uploaded files stored?",
+    "answer": "To protect your privacy, all uploaded source documents and processed output files are automatically and permanently deleted from our servers following a strict retention policy, typically within 2 to 24 hours."
+  },
+  {
+    "id": "priv-4",
+    "category": "Privacy",
+    "question": "Can I manually delete my files?",
+    "answer": "Yes, many tool workflows provide an immediate \"Delete from Server\" button on the download page, allowing you to forcefully purge your documents from our infrastructure the moment you are finished."
+  },
+  {
+    "id": "priv-5",
+    "category": "Privacy",
+    "question": "Does ilovepdf.in use HTTPS?",
+    "answer": "Yes. The entire platform operates over HTTPS, ensuring that all document uploads and downloads are protected by robust TLS encryption while in transit across the internet."
+  },
+  {
+    "id": "priv-6",
+    "category": "Privacy",
+    "question": "Are uploaded documents publicly accessible?",
+    "answer": "No. Every uploaded file and processed document is assigned a secure, mathematically unique session identifier. It cannot be discovered, browsed, or indexed by search engines."
+  },
+  {
+    "id": "priv-7",
+    "category": "Privacy",
+    "question": "Does ilovepdf.in read my documents?",
+    "answer": "No human personnel interact with or read your documents. Processing is entirely programmatic. AI features only analyze text when you explicitly initiate an AI-driven workflow."
+  },
+  {
+    "id": "priv-8",
+    "category": "Privacy",
+    "question": "Does ilovepdf.in permanently store my files?",
+    "answer": "No, we do not operate as a permanent file hosting service. Our infrastructure is designed for temporary processing only, and automated scripts routinely wipe all stale session data."
+  },
+  {
+    "id": "priv-9",
+    "category": "Privacy",
+    "question": "Do you track the content of my documents?",
+    "answer": "We do not run analytics, telemetry, or tracking algorithms on the actual content or text inside your documents. Analytics are restricted strictly to website usage metrics and tool performance."
+  },
+  {
+    "id": "priv-10",
+    "category": "Privacy",
+    "question": "What happens to my data if I use the login system?",
+    "answer": "When you authenticate, we store your basic profile information (like your email address) securely in our database to manage your account tier. However, this does not change the strict auto-deletion policies applied to your uploaded document files."
+  },
+  {
+    "id": "trb-1",
+    "category": "Troubleshooting",
+    "question": "Why won't my PDF upload?",
+    "answer": "Upload failures are usually caused by an unstable internet connection, a corporate firewall blocking file transfers, or attempting to upload a file that vastly exceeds your current account size limits."
+  },
+  {
+    "id": "trb-2",
+    "category": "Troubleshooting",
+    "question": "Why does processing fail?",
+    "answer": "Processing can fail if the uploaded PDF is severely corrupted, mathematically malformed, heavily encrypted with unsupported security protocols, or if it contains zero actual pages."
+  },
+  {
+    "id": "trb-3",
+    "category": "Troubleshooting",
+    "question": "Why does the website say Failed to load PDF?",
+    "answer": "This error typically occurs when your local web browser attempts to render a document that has been corrupted during a local save, or if you are using an outdated browser version lacking proper PDF viewer support."
+  },
+  {
+    "id": "trb-4",
+    "category": "Troubleshooting",
+    "question": "Where is my converted file downloaded?",
+    "answer": "By default, processed files are saved directly into your operating system's designated \"Downloads\" folder, unless you have specifically configured your browser to ask for a save destination each time."
+  },
+  {
+    "id": "trb-5",
+    "category": "Troubleshooting",
+    "question": "Why is my PDF password not accepted?",
+    "answer": "Ensure that you are not confusing the \"Permissions\" password (which restricts editing) with the \"Document Open\" password. Furthermore, ensure your caps lock is off, as passwords are strictly case-sensitive."
+  },
+  {
+    "id": "trb-6",
+    "category": "Troubleshooting",
+    "question": "Why is my PDF too large?",
+    "answer": "PDFs bloat in size when they contain high-resolution, uncompressed images, embedded proprietary fonts, or invisible vector paths created by complex design software like Adobe Illustrator."
+  },
+  {
+    "id": "trb-7",
+    "category": "Troubleshooting",
+    "question": "Why is my converted document formatting different?",
+    "answer": "PDF is a fixed-layout format, meaning text is tied to specific visual coordinates. Converting it back into a fluid format like Word requires complex guesswork, which can occasionally misinterpret tables or custom spacing."
+  },
+  {
+    "id": "trb-8",
+    "category": "Troubleshooting",
+    "question": "Why is text missing after conversion?",
+    "answer": "If the text in your original PDF was actually an image of text (like a scanned page) rather than embedded font data, standard conversion tools will not detect it. You must use an OCR-enabled tool to extract it."
+  },
+  {
+    "id": "trb-9",
+    "category": "Troubleshooting",
+    "question": "Why is OCR inaccurate?",
+    "answer": "OCR engines struggle heavily with cursive handwriting, incredibly small font sizes, low-contrast watermarks, or documents that were scanned at a crooked angle or low DPI resolution."
+  },
+  {
+    "id": "trb-10",
+    "category": "Troubleshooting",
+    "question": "Why did my session expire?",
+    "answer": "For your security and privacy, upload sessions are strictly time-limited. If you upload a file and step away from your browser for an extended period, the server will purge the files, requiring you to start over."
+  }
+]

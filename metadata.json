@@ -1,0 +1,6 @@
+{
+  "name": "iLovePDF Online Suite & CMS Admin",
+  "description": "Full online PDF tools suite with complete Admin Appearance Theme Editor, dynamic branding, custom CSS, live multi-device preview, and draft-publish version management.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

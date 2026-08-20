@@ -1,0 +1,12 @@
+diff --git a/index.html b/index.html
+index fad8e44..a911ef7 100644
+--- a/index.html
++++ b/index.html
+@@ -1,6 +1,7 @@
+ <!DOCTYPE html>
+ <html lang="en">
+   <head>
++    <meta name="google-site-verification" content="x2o5SH5zLuydGQyS7uIgHGHLC_1lyT8gq_acS9NJZn0" />
+     <meta charset="UTF-8" />
+     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+     <title>iLovePDF.in - Online PDF Tools for PDF Lovers</title>

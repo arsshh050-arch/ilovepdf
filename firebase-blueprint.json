@@ -1,0 +1,60 @@
+{
+  "entities": {
+    "UserHistory": {
+      "title": "User History",
+      "description": "Log of PDF processing operations performed by the user",
+      "type": "object",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "toolName": { "type": "string" },
+        "fileName": { "type": "string" },
+        "fileCount": { "type": "number" },
+        "processedAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["userId", "toolName", "fileName"]
+    },
+    "UserProfile": {
+      "title": "User Profile",
+      "description": "Profile info for registered users",
+      "type": "object",
+      "properties": {
+        "uid": { "type": "string" },
+        "email": { "type": "string" },
+        "name": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["uid"]
+    },
+    "ContactMessage": {
+      "title": "Contact Message",
+      "description": "Inquiries submitted by users through the contact form",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string", "maxLength": 100 },
+        "email": { "type": "string", "maxLength": 255 },
+        "category": { "type": "string", "maxLength": 100 },
+        "subject": { "type": "string", "maxLength": 200 },
+        "message": { "type": "string", "maxLength": 2000 },
+        "createdAt": { "type": "string", "format": "date-time" },
+        "userId": { "type": "string" },
+        "status": { "type": "string", "enum": ["new", "read", "resolved"] }
+      },
+      "required": ["name", "email", "category", "subject", "message"]
+    }
+  },
+  "firestore": {
+    "/user_history/{historyId}": {
+      "schema": "UserHistory",
+      "description": "Collection storing PDF tool activity history for authenticated users"
+    },
+    "/users/{userId}": {
+      "schema": "UserProfile",
+      "description": "Collection storing user profile details"
+    },
+    "/contact_messages/{messageId}": {
+      "schema": "ContactMessage",
+      "description": "Collection storing support and contact form submissions"
+    }
+  }
+}

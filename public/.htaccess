@@ -1,0 +1,22 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Do NOT rewrite API calls to index.html
+  RewriteCond %{REQUEST_URI} ^/api [NC]
+  RewriteRule ^ - [L]
+
+  RewriteRule ^index\.html$ - [L]
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule . /index.html [L]
+</IfModule>
+
+# Reverse Proxy /api/ requests to local Node.js server (Port 3000) if Apache mod_proxy is enabled on Hostinger
+<IfModule mod_proxy.c>
+  <IfModule mod_proxy_http.c>
+    ProxyPass /api/ http://127.0.0.1:3000/api/
+    ProxyPassReverse /api/ http://127.0.0.1:3000/api/
+  </IfModule>
+</IfModule>
+

@@ -1,0 +1,1381 @@
+[
+  {
+    "id": "kw-home",
+    "keyword": "online pdf tools",
+    "type": "Primary",
+    "targetUrl": "/",
+    "searchIntent": "commercial",
+    "pageType": "Homepage",
+    "cluster": "General PDF Tools",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf tools",
+      "free pdf tools",
+      "pdf tools online",
+      "online pdf tools free",
+      "pdf converter",
+      "pdf converter online",
+      "pdf editor",
+      "online pdf editor",
+      "pdf maker",
+      "pdf utility",
+      "pdf file tools",
+      "document converter",
+      "online document tools",
+      "pdf management tools",
+      "all pdf tools"
+    ],
+    "semanticKeywords": [
+      "convert pdf",
+      "compress pdf",
+      "merge pdf",
+      "split pdf",
+      "edit pdf",
+      "sign pdf",
+      "organize pdf",
+      "protect pdf",
+      "ocr pdf",
+      "convert documents",
+      "manage pdf files"
+    ],
+    "longTailKeywords": [
+      "free online pdf tools",
+      "all in one pdf tools",
+      "online tools for pdf files",
+      "pdf tools without installing software",
+      "convert and edit pdf online",
+      "manage pdf files online"
+    ],
+    "brandKeywords": [
+      "ilovepdf",
+      "i love pdf",
+      "ilove pdf",
+      "i love pdf online",
+      "ilovepdf online",
+      "ilovepdf tools",
+      "i love pdf tools"
+    ],
+    "notes": "Homepage targets broad PDF management terms. Do not falsely imply official affiliation with competitor brands."
+  },
+  {
+    "id": "kw-merge-pdf",
+    "keyword": "merge pdf",
+    "type": "Primary",
+    "targetUrl": "/merge-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf merger",
+      "combine pdf",
+      "merge pdf files",
+      "combine pdf files",
+      "pdf combiner",
+      "merge pdf online",
+      "combine pdf online",
+      "join pdf",
+      "join pdf files"
+    ],
+    "semanticKeywords": [
+      "reorder pdf",
+      "arrange pdf files",
+      "combine documents",
+      "single pdf",
+      "document merging"
+    ],
+    "longTailKeywords": [
+      "merge pdf files online",
+      "combine multiple pdf files",
+      "combine pdf files into one",
+      "merge two pdf files",
+      "merge multiple pdf files",
+      "join pdf files online",
+      "combine pdf pages",
+      "merge pdf without installing software",
+      "how to merge pdf files",
+      "how to combine pdf files"
+    ],
+    "notes": "Single primary keyword owner for merge PDF searches."
+  },
+  {
+    "id": "kw-split-pdf",
+    "keyword": "split pdf",
+    "type": "Primary",
+    "targetUrl": "/split-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf splitter",
+      "split pdf online",
+      "separate pdf pages",
+      "divide pdf",
+      "extract pdf pages",
+      "pdf page splitter",
+      "separate pdf"
+    ],
+    "longTailKeywords": [
+      "split pdf into multiple files",
+      "split pdf by pages",
+      "split pdf by page range",
+      "extract pages from pdf",
+      "separate pages from pdf",
+      "split large pdf",
+      "how to split pdf",
+      "split pdf into individual pages"
+    ],
+    "notes": "Single primary keyword owner for split PDF searches."
+  },
+  {
+    "id": "kw-compress-pdf",
+    "keyword": "compress pdf",
+    "type": "Primary",
+    "targetUrl": "/compress-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Optimize PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf compressor",
+      "reduce pdf size",
+      "compress pdf online",
+      "reduce pdf file size",
+      "make pdf smaller",
+      "shrink pdf",
+      "optimize pdf"
+    ],
+    "longTailKeywords": [
+      "compress pdf without losing quality",
+      "reduce pdf size online",
+      "make pdf smaller for email",
+      "compress large pdf",
+      "reduce pdf size for upload",
+      "compress scanned pdf",
+      "how to reduce pdf file size",
+      "how to make a pdf smaller"
+    ],
+    "problemKeywords": [
+      "pdf too large",
+      "pdf too large to email",
+      "pdf too large to upload",
+      "reduce pdf mb",
+      "reduce pdf below 5mb",
+      "reduce pdf below 2mb"
+    ],
+    "notes": "High demand transactional tool page for PDF compression."
+  },
+  {
+    "id": "kw-pdf-to-word",
+    "keyword": "pdf to word",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-word",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf to word converter",
+      "convert pdf to word",
+      "pdf to docx",
+      "pdf to doc",
+      "pdf into word",
+      "pdf word converter",
+      "pdf to editable word"
+    ],
+    "longTailKeywords": [
+      "convert pdf to word online",
+      "pdf to word converter online",
+      "convert pdf to editable word",
+      "convert scanned pdf to word",
+      "pdf to word without losing formatting",
+      "how to convert pdf to word",
+      "turn pdf into word document"
+    ],
+    "notes": "Primary converter tool for PDF to Word / DOCX."
+  },
+  {
+    "id": "kw-word-to-pdf",
+    "keyword": "word to pdf",
+    "type": "Primary",
+    "targetUrl": "/word-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "word to pdf converter",
+      "convert word to pdf",
+      "doc to pdf",
+      "docx to pdf",
+      "word document to pdf",
+      "microsoft word to pdf"
+    ],
+    "longTailKeywords": [
+      "convert word to pdf online",
+      "convert docx to pdf",
+      "save word document as pdf",
+      "word to pdf without losing formatting",
+      "how to convert word to pdf"
+    ],
+    "notes": "Primary converter tool for Word to PDF."
+  },
+  {
+    "id": "kw-pdf-to-excel",
+    "keyword": "pdf to excel",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-excel",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf to excel converter",
+      "convert pdf to excel",
+      "pdf to xlsx",
+      "pdf to spreadsheet",
+      "extract table from pdf"
+    ],
+    "longTailKeywords": [
+      "convert pdf table to excel",
+      "pdf to editable excel",
+      "scanned pdf to excel",
+      "extract data from pdf to excel",
+      "how to convert pdf to excel"
+    ],
+    "notes": "Extracts tabular data directly to Excel spreadsheets."
+  },
+  {
+    "id": "kw-excel-to-pdf",
+    "keyword": "excel to pdf",
+    "type": "Primary",
+    "targetUrl": "/excel-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "excel to pdf converter",
+      "convert excel to pdf",
+      "xlsx to pdf",
+      "xls to pdf",
+      "spreadsheet to pdf"
+    ],
+    "longTailKeywords": [
+      "convert excel spreadsheet to pdf",
+      "save excel as pdf",
+      "convert xlsx to pdf online",
+      "excel to pdf without losing formatting"
+    ],
+    "notes": "Converts Excel spreadsheets into PDF documents."
+  },
+  {
+    "id": "kw-pdf-to-powerpoint",
+    "keyword": "pdf to powerpoint",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-powerpoint",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf to ppt",
+      "pdf to pptx",
+      "pdf to powerpoint converter",
+      "convert pdf to powerpoint",
+      "pdf to presentation"
+    ],
+    "longTailKeywords": [
+      "convert pdf to editable powerpoint",
+      "pdf to pptx online",
+      "turn pdf into powerpoint",
+      "how to convert pdf to powerpoint"
+    ],
+    "notes": "Converts PDFs into editable PPTX slides."
+  },
+  {
+    "id": "kw-powerpoint-to-pdf",
+    "keyword": "powerpoint to pdf",
+    "type": "Primary",
+    "targetUrl": "/powerpoint-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "ppt to pdf",
+      "pptx to pdf",
+      "convert powerpoint to pdf",
+      "powerpoint to pdf converter",
+      "presentation to pdf"
+    ],
+    "longTailKeywords": [
+      "convert pptx to pdf",
+      "save powerpoint as pdf",
+      "convert presentation to pdf online"
+    ],
+    "notes": "Converts PPT and PPTX presentations into PDF."
+  },
+  {
+    "id": "kw-jpg-to-pdf",
+    "keyword": "jpg to pdf",
+    "type": "Primary",
+    "targetUrl": "/jpg-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "jpg to pdf converter",
+      "convert jpg to pdf",
+      "jpeg to pdf",
+      "image to pdf",
+      "photo to pdf",
+      "picture to pdf"
+    ],
+    "longTailKeywords": [
+      "combine jpg into pdf",
+      "multiple jpg to pdf",
+      "convert photos to pdf",
+      "convert images to pdf",
+      "jpg to pdf online",
+      "combine multiple images into one pdf",
+      "how to convert jpg to pdf"
+    ],
+    "notes": "High demand image-to-PDF converter."
+  },
+  {
+    "id": "kw-pdf-to-jpg",
+    "keyword": "pdf to jpg",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-jpg",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf to jpg converter",
+      "convert pdf to jpg",
+      "pdf to jpeg",
+      "pdf to image",
+      "pdf pages to jpg"
+    ],
+    "longTailKeywords": [
+      "convert pdf pages to jpg",
+      "save pdf as jpg",
+      "convert pdf to high quality jpg",
+      "pdf to image online",
+      "how to convert pdf to jpg"
+    ],
+    "notes": "Extracts images or saves PDF pages as JPG."
+  },
+  {
+    "id": "kw-png-to-pdf",
+    "keyword": "png to pdf",
+    "type": "Primary",
+    "targetUrl": "/png-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "convert png to pdf",
+      "png to pdf converter",
+      "image to pdf",
+      "png image to pdf"
+    ],
+    "longTailKeywords": [
+      "combine png files into pdf",
+      "multiple png to pdf",
+      "convert png images to one pdf"
+    ],
+    "notes": "Converts PNG transparent image files to PDF."
+  },
+  {
+    "id": "kw-pdf-to-png",
+    "keyword": "pdf to png",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-png",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "convert pdf to png",
+      "pdf to png converter",
+      "pdf page to png",
+      "pdf to image"
+    ],
+    "longTailKeywords": [
+      "convert pdf pages to png",
+      "save pdf as png",
+      "high quality pdf to png"
+    ],
+    "notes": "Converts PDF pages into transparent PNG images."
+  },
+  {
+    "id": "kw-html-to-pdf",
+    "keyword": "html to pdf",
+    "type": "Primary",
+    "targetUrl": "/html-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "html to pdf converter",
+      "convert html to pdf",
+      "webpage to pdf",
+      "website to pdf",
+      "url to pdf"
+    ],
+    "longTailKeywords": [
+      "convert webpage to pdf",
+      "save website as pdf",
+      "convert html file to pdf",
+      "html page to pdf"
+    ],
+    "notes": "Converts web pages and HTML files to PDF."
+  },
+  {
+    "id": "kw-pdf-to-html",
+    "keyword": "pdf to html",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-html",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "convert pdf to html",
+      "pdf to html converter",
+      "pdf to webpage",
+      "pdf to web page"
+    ],
+    "longTailKeywords": [
+      "convert pdf into html code",
+      "turn pdf into responsive webpage"
+    ],
+    "notes": "Converts PDF files into responsive HTML code."
+  },
+  {
+    "id": "kw-pdf-to-txt",
+    "keyword": "pdf to text",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-txt",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf to txt",
+      "extract text from pdf",
+      "convert pdf to text",
+      "pdf text extractor"
+    ],
+    "longTailKeywords": [
+      "extract all text from pdf",
+      "convert pdf into plain text",
+      "copy text from pdf"
+    ],
+    "notes": "Extracts plain text content from PDFs."
+  },
+  {
+    "id": "kw-txt-to-pdf",
+    "keyword": "text to pdf",
+    "type": "Primary",
+    "targetUrl": "/txt-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "txt to pdf",
+      "convert text to pdf",
+      "txt to pdf converter",
+      "plain text to pdf"
+    ],
+    "longTailKeywords": [
+      "convert text file to pdf",
+      "save text document as pdf"
+    ],
+    "notes": "Converts raw text and TXT files to formatted PDF."
+  },
+  {
+    "id": "kw-edit-pdf",
+    "keyword": "pdf editor",
+    "type": "Primary",
+    "targetUrl": "/edit-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "edit pdf",
+      "edit pdf online",
+      "online pdf editor",
+      "pdf editing tool",
+      "edit pdf text",
+      "modify pdf",
+      "type on pdf",
+      "add text to pdf"
+    ],
+    "longTailKeywords": [
+      "edit pdf online",
+      "how to edit a pdf",
+      "edit text in pdf",
+      "edit pdf document online",
+      "add text to pdf online",
+      "edit existing pdf text"
+    ],
+    "notes": "Full PDF editing suite allowing online text, shape, and drawing modifications."
+  },
+  {
+    "id": "kw-sign-pdf",
+    "keyword": "sign pdf",
+    "type": "Primary",
+    "targetUrl": "/sign-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Sign & Security",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf signature",
+      "sign pdf online",
+      "add signature to pdf",
+      "electronically sign pdf",
+      "digital signature pdf",
+      "e-sign pdf"
+    ],
+    "longTailKeywords": [
+      "how to sign a pdf",
+      "add signature to pdf online",
+      "sign pdf document electronically",
+      "draw signature on pdf",
+      "type signature on pdf"
+    ],
+    "notes": "Online electronic signature tool for signing PDF contracts and forms."
+  },
+  {
+    "id": "kw-watermark-pdf",
+    "keyword": "watermark pdf",
+    "type": "Primary",
+    "targetUrl": "/watermark-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "add watermark to pdf",
+      "pdf watermark",
+      "watermark pdf online",
+      "stamp pdf"
+    ],
+    "longTailKeywords": [
+      "add text watermark to pdf",
+      "add image watermark to pdf",
+      "how to watermark a pdf"
+    ],
+    "notes": "Applies custom text or image watermarks to PDF pages."
+  },
+  {
+    "id": "kw-rotate-pdf",
+    "keyword": "rotate pdf",
+    "type": "Primary",
+    "targetUrl": "/rotate-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Organize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "rotate pdf pages",
+      "rotate pdf online",
+      "turn pdf pages",
+      "rotate pdf permanently"
+    ],
+    "longTailKeywords": [
+      "rotate one page in pdf",
+      "rotate multiple pdf pages",
+      "fix sideways pdf pages"
+    ],
+    "notes": "Rotates landscape/portrait PDF pages permanently."
+  },
+  {
+    "id": "kw-crop-pdf",
+    "keyword": "crop pdf",
+    "type": "Primary",
+    "targetUrl": "/crop-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf cropper",
+      "crop pdf pages",
+      "trim pdf",
+      "remove pdf margins"
+    ],
+    "longTailKeywords": [
+      "crop margins from pdf",
+      "crop pdf page size",
+      "remove white margins from pdf"
+    ],
+    "notes": "Crops PDF page margins and frame dimensions."
+  },
+  {
+    "id": "kw-organize-pdf",
+    "keyword": "organize pdf",
+    "type": "Primary",
+    "targetUrl": "/organize-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "rearrange pdf pages",
+      "reorder pdf pages",
+      "organize pdf pages",
+      "move pdf pages",
+      "sort pdf pages"
+    ],
+    "longTailKeywords": [
+      "change page order in pdf",
+      "rearrange pages in pdf",
+      "organize pdf pages online"
+    ],
+    "notes": "Interactive visual drag-and-drop page reordering tool."
+  },
+  {
+    "id": "kw-remove-pages",
+    "keyword": "remove pages from pdf",
+    "type": "Primary",
+    "targetUrl": "/remove-pages",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "delete pdf pages",
+      "remove pdf page",
+      "pdf page remover",
+      "delete pages from pdf"
+    ],
+    "longTailKeywords": [
+      "remove unwanted pages from pdf",
+      "delete one page from pdf",
+      "how to remove pages from pdf"
+    ],
+    "notes": "Deletes specific unwanted pages from a PDF document."
+  },
+  {
+    "id": "kw-extract-pages",
+    "keyword": "extract pages from pdf",
+    "type": "Primary",
+    "targetUrl": "/extract-pages",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "extract pdf pages",
+      "save pages from pdf",
+      "pdf page extractor",
+      "separate pdf pages"
+    ],
+    "longTailKeywords": [
+      "extract specific pages from pdf",
+      "save one page from pdf",
+      "extract page range from pdf"
+    ],
+    "notes": "Extracts selected page ranges into a separate PDF file."
+  },
+  {
+    "id": "kw-add-page-numbers",
+    "keyword": "add page numbers to pdf",
+    "type": "Primary",
+    "targetUrl": "/add-page-numbers",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "number pdf pages",
+      "pdf page numbers",
+      "insert page numbers pdf"
+    ],
+    "longTailKeywords": [
+      "how to add page numbers to pdf",
+      "number pages in pdf online"
+    ],
+    "notes": "Inserts customized page numbers into PDF headers or footers."
+  },
+  {
+    "id": "kw-protect-pdf",
+    "keyword": "protect pdf",
+    "type": "Primary",
+    "targetUrl": "/protect-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Security",
+    "cluster": "Sign & Security",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "password protect pdf",
+      "encrypt pdf",
+      "secure pdf",
+      "lock pdf",
+      "add password to pdf"
+    ],
+    "longTailKeywords": [
+      "how to password protect a pdf",
+      "protect pdf with password",
+      "secure pdf document online"
+    ],
+    "notes": "Encrypts PDF files with password protection."
+  },
+  {
+    "id": "kw-unlock-pdf",
+    "keyword": "unlock pdf",
+    "type": "Primary",
+    "targetUrl": "/unlock-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Security",
+    "cluster": "Sign & Security",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "remove pdf password",
+      "unlock password protected pdf",
+      "pdf password remover"
+    ],
+    "longTailKeywords": [
+      "remove password from pdf you own",
+      "unlock protected pdf with password",
+      "remove known pdf password"
+    ],
+    "notes": "Authorization-focused tool for removing known passwords from user-owned PDFs."
+  },
+  {
+    "id": "kw-redact-pdf",
+    "keyword": "redact pdf",
+    "type": "Primary",
+    "targetUrl": "/redact-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Security",
+    "cluster": "Sign & Security",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf redaction",
+      "redact pdf online",
+      "remove sensitive information from pdf",
+      "black out pdf text"
+    ],
+    "longTailKeywords": [
+      "how to redact a pdf",
+      "permanently redact pdf text",
+      "remove confidential information from pdf"
+    ],
+    "notes": "Permanently blacks out and redacts confidential data from PDF text."
+  },
+  {
+    "id": "kw-ocr-pdf",
+    "keyword": "ocr pdf",
+    "type": "Primary",
+    "targetUrl": "/ocr-pdf",
+    "searchIntent": "transactional",
+    "pageType": "OCR",
+    "cluster": "OCR & AI",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf ocr",
+      "ocr pdf online",
+      "scanned pdf to text",
+      "make pdf searchable",
+      "recognize text in pdf"
+    ],
+    "longTailKeywords": [
+      "make scanned pdf searchable",
+      "extract text from scanned pdf",
+      "convert scanned pdf to editable text",
+      "ocr scanned documents",
+      "how to ocr a pdf"
+    ],
+    "notes": "Optical Character Recognition engine to turn scanned PDFs into searchable text."
+  },
+  {
+    "id": "kw-repair-pdf",
+    "keyword": "repair pdf",
+    "type": "Primary",
+    "targetUrl": "/repair-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Optimize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "fix pdf",
+      "repair corrupted pdf",
+      "fix damaged pdf",
+      "recover pdf"
+    ],
+    "longTailKeywords": [
+      "how to repair corrupted pdf",
+      "pdf won't open",
+      "fix damaged pdf file"
+    ],
+    "notes": "Fixes and recovers corrupted or damaged PDF file headers."
+  },
+  {
+    "id": "kw-pdf-to-pdfa",
+    "keyword": "pdf to pdf/a",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-pdfa",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert To PDF",
+    "priority": "Low",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "convert pdf to pdf/a",
+      "pdf/a converter",
+      "archival pdf",
+      "pdf archival format"
+    ],
+    "longTailKeywords": [
+      "convert pdf to archival pdf",
+      "pdf vs pdf/a",
+      "create pdf/a document"
+    ],
+    "notes": "Converts standard PDFs into ISO compliant PDF/A archival format."
+  },
+  {
+    "id": "kw-remove-pdf-metadata",
+    "keyword": "remove pdf metadata",
+    "type": "Primary",
+    "targetUrl": "/remove-pdf-metadata",
+    "searchIntent": "transactional",
+    "pageType": "Security",
+    "cluster": "Sign & Security",
+    "priority": "Low",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "delete pdf metadata",
+      "clear pdf metadata",
+      "remove author from pdf",
+      "pdf metadata remover"
+    ],
+    "longTailKeywords": [
+      "remove personal information from pdf metadata",
+      "how to delete metadata from pdf"
+    ],
+    "notes": "Strips author name, producer tags, creation dates, and personal metadata from PDF files."
+  },
+  {
+    "id": "kw-flatten-pdf",
+    "keyword": "flatten pdf",
+    "type": "Primary",
+    "targetUrl": "/flatten-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Security",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf flattener",
+      "flatten pdf form",
+      "flatten annotations pdf",
+      "make pdf non editable"
+    ],
+    "longTailKeywords": [
+      "flatten fillable pdf",
+      "flatten pdf annotations",
+      "how to flatten a pdf"
+    ],
+    "notes": "Renders fillable form fields and annotations permanently flat."
+  },
+  {
+    "id": "kw-pdf-forms",
+    "keyword": "pdf forms",
+    "type": "Primary",
+    "targetUrl": "/pdf-forms",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "fill pdf form",
+      "fillable pdf",
+      "pdf form filler",
+      "fill pdf online"
+    ],
+    "longTailKeywords": [
+      "fill out pdf form online",
+      "type into pdf form",
+      "complete pdf form"
+    ],
+    "notes": "Interactive online form filler for interactive PDF documents."
+  },
+  {
+    "id": "kw-annotate-pdf",
+    "keyword": "annotate pdf",
+    "type": "Primary",
+    "targetUrl": "/annotate-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Editor",
+    "cluster": "Edit PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf annotation",
+      "mark up pdf",
+      "highlight pdf",
+      "comment on pdf",
+      "draw on pdf"
+    ],
+    "longTailKeywords": [
+      "add comments to pdf",
+      "highlight text in pdf document"
+    ],
+    "notes": "Adds highlights, sticky notes, freehand markup, and annotations to PDFs."
+  },
+  {
+    "id": "kw-ai-pdf-summarizer",
+    "keyword": "pdf summarizer",
+    "type": "Primary",
+    "targetUrl": "/ai-pdf-summarizer",
+    "searchIntent": "transactional",
+    "pageType": "AI",
+    "cluster": "OCR & AI",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "ai pdf summarizer",
+      "summarize pdf",
+      "summarize pdf with ai",
+      "pdf summary",
+      "document summarizer"
+    ],
+    "longTailKeywords": [
+      "summarize long pdf",
+      "ai summarize pdf document",
+      "summarize research paper pdf"
+    ],
+    "notes": "AI-powered tool that generates key bullet point summaries from lengthy PDFs."
+  },
+  {
+    "id": "kw-ask-pdf",
+    "keyword": "chat with pdf",
+    "type": "Primary",
+    "targetUrl": "/ask-pdf",
+    "searchIntent": "transactional",
+    "pageType": "AI",
+    "cluster": "OCR & AI",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "ask pdf questions",
+      "ai pdf chat",
+      "talk to pdf",
+      "question answer pdf",
+      "ask questions about pdf"
+    ],
+    "longTailKeywords": [
+      "chat with pdf using ai",
+      "ask questions about a pdf document",
+      "ai question answering for pdf"
+    ],
+    "notes": "Conversational AI assistant interface to query PDF contents."
+  },
+  {
+    "id": "kw-translate-pdf",
+    "keyword": "translate pdf",
+    "type": "Primary",
+    "targetUrl": "/translate-pdf",
+    "searchIntent": "transactional",
+    "pageType": "AI",
+    "cluster": "OCR & AI",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf translator",
+      "translate pdf online",
+      "ai pdf translator",
+      "document translator"
+    ],
+    "longTailKeywords": [
+      "translate pdf to english",
+      "translate entire pdf document",
+      "translate scanned pdf"
+    ],
+    "notes": "Translates full PDF documents into 50+ languages using AI while preserving layout."
+  },
+  {
+    "id": "kw-pdf-to-markdown",
+    "keyword": "pdf to markdown",
+    "type": "Primary",
+    "targetUrl": "/pdf-to-markdown",
+    "searchIntent": "transactional",
+    "pageType": "Converter",
+    "cluster": "Convert From PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "convert pdf to markdown",
+      "pdf to md",
+      "pdf markdown converter",
+      "extract pdf as markdown"
+    ],
+    "longTailKeywords": [
+      "convert pdf to markdown for ai",
+      "pdf to markdown online",
+      "turn pdf into markdown"
+    ],
+    "notes": "Extracts structured text and code blocks from PDF into clean Markdown (.md)."
+  },
+  {
+    "id": "kw-extract-pdf-tables",
+    "keyword": "extract tables from pdf",
+    "type": "Primary",
+    "targetUrl": "/extract-pdf-tables",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Convert From PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf table extractor",
+      "extract data from pdf",
+      "pdf table to excel",
+      "extract tabular data"
+    ],
+    "longTailKeywords": [
+      "detect tables in pdf document",
+      "extract raw tables to csv or json"
+    ],
+    "notes": "Detects and extracts tabular grids from PDF files."
+  },
+  {
+    "id": "kw-compare-pdf",
+    "keyword": "compare pdf",
+    "type": "Primary",
+    "targetUrl": "/compare-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Organize PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "compare two pdf files",
+      "pdf comparison",
+      "compare pdf documents",
+      "find differences in pdf"
+    ],
+    "longTailKeywords": [
+      "compare two pdf documents",
+      "find changes between pdf files"
+    ],
+    "notes": "Side-by-side visual diff tool to highlight changes between two PDF documents."
+  },
+  {
+    "id": "kw-scan-to-pdf",
+    "keyword": "scan to pdf",
+    "type": "Primary",
+    "targetUrl": "/scan-to-pdf",
+    "searchIntent": "transactional",
+    "pageType": "Tool",
+    "cluster": "Convert To PDF",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "document scanner",
+      "scan document to pdf",
+      "photo scanner pdf",
+      "image scan to pdf"
+    ],
+    "longTailKeywords": [
+      "scan paper document to pdf online",
+      "camera scan to pdf"
+    ],
+    "notes": "Webcam or device camera scanner to create clean PDFs from physical documents."
+  },
+  {
+    "id": "kw-workflows",
+    "keyword": "pdf workflow",
+    "type": "Primary",
+    "targetUrl": "/workflows",
+    "searchIntent": "commercial",
+    "pageType": "Workflow",
+    "cluster": "Workflows & Automation",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf automation",
+      "document workflow",
+      "automate pdf tasks",
+      "pdf workflow automation",
+      "document automation"
+    ],
+    "longTailKeywords": [
+      "automate repetitive pdf tasks",
+      "create pdf workflow",
+      "automate document processing"
+    ],
+    "notes": "Custom multi-step PDF automated task pipelines."
+  },
+  {
+    "id": "kw-developers",
+    "keyword": "pdf api",
+    "type": "Primary",
+    "targetUrl": "/developers",
+    "searchIntent": "commercial",
+    "pageType": "Developer",
+    "cluster": "API & Developers",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf rest api",
+      "pdf conversion api",
+      "document processing api",
+      "pdf compressor api",
+      "pdf merge api",
+      "pdf ocr api",
+      "pdf automation api"
+    ],
+    "longTailKeywords": [
+      "pdf api for developers",
+      "rest api for pdf conversion",
+      "automate pdf processing api"
+    ],
+    "notes": "Developer REST API portal for high-volume server-side document processing."
+  },
+  {
+    "id": "kw-business",
+    "keyword": "pdf tools for business",
+    "type": "Primary",
+    "targetUrl": "/business",
+    "searchIntent": "commercial",
+    "pageType": "Business",
+    "cluster": "Business Solutions",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "business pdf software",
+      "document management tools",
+      "pdf tools for teams",
+      "business document workflow",
+      "pdf automation for business"
+    ],
+    "longTailKeywords": [
+      "enterprise pdf tools for teams",
+      "secure business document management"
+    ],
+    "notes": "Enterprise landing page for team accounts, security guarantees, and compliance."
+  },
+  {
+    "id": "kw-faq",
+    "keyword": "pdf help",
+    "type": "Primary",
+    "targetUrl": "/faq",
+    "searchIntent": "informational",
+    "pageType": "FAQ",
+    "cluster": "Help & Support",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf questions",
+      "pdf troubleshooting",
+      "pdf help center",
+      "pdf converter help",
+      "pdf tool faq"
+    ],
+    "notes": "Main FAQ and Knowledgebase center."
+  },
+  {
+    "id": "kw-blog",
+    "keyword": "pdf guides",
+    "type": "Primary",
+    "targetUrl": "/blog",
+    "searchIntent": "informational",
+    "pageType": "Blog",
+    "cluster": "Editorial & Guides",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf tutorials",
+      "pdf tips",
+      "pdf how to",
+      "document guides",
+      "pdf help",
+      "pdf conversion guides",
+      "pdf editing guides"
+    ],
+    "notes": "Main editorial hub hosting guides, tutorials, and troubleshooting articles."
+  },
+  {
+    "id": "kw-prob-large-pdf",
+    "keyword": "pdf too large",
+    "type": "Problem",
+    "targetUrl": "/blog/why-is-my-pdf-file-so-large",
+    "searchIntent": "informational",
+    "pageType": "Problem/Troubleshooting",
+    "cluster": "Troubleshooting",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf too large to email",
+      "pdf too large to upload",
+      "pdf upload failed"
+    ],
+    "notes": "Troubleshooting guide explaining why PDFs get bloated and how to compress them."
+  },
+  {
+    "id": "kw-prob-corrupted",
+    "keyword": "pdf corrupted",
+    "type": "Problem",
+    "targetUrl": "/blog/fix-damaged-pdf",
+    "searchIntent": "informational",
+    "pageType": "Problem/Troubleshooting",
+    "cluster": "Troubleshooting",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf won't open",
+      "pdf not loading",
+      "pdf file corrupted"
+    ],
+    "notes": "Troubleshooting article explaining how to repair damaged PDF file headers."
+  },
+  {
+    "id": "kw-prob-scanned-ocr",
+    "keyword": "scanned pdf not searchable",
+    "type": "Problem",
+    "targetUrl": "/blog/make-scanned-pdf-searchable",
+    "searchIntent": "informational",
+    "pageType": "Problem/Troubleshooting",
+    "cluster": "Troubleshooting",
+    "priority": "Medium",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "pdf text not selectable",
+      "can't copy text from pdf"
+    ],
+    "notes": "Troubleshooting guide explaining how OCR recognizes image text inside scanned PDFs."
+  },
+  {
+    "id": "kw-q-how-to-merge",
+    "keyword": "how to merge pdf",
+    "type": "Question",
+    "targetUrl": "/blog/how-to-merge-pdf-files",
+    "searchIntent": "informational",
+    "pageType": "Blog",
+    "cluster": "How-To Guides",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "how to combine pdf files",
+      "how to join pdf pages"
+    ],
+    "notes": "Step-by-step tutorial guide on merging PDFs online and offline."
+  },
+  {
+    "id": "kw-q-how-to-compress",
+    "keyword": "how to compress pdf",
+    "type": "Question",
+    "targetUrl": "/blog/how-to-compress-pdf-without-losing-quality",
+    "searchIntent": "informational",
+    "pageType": "Blog",
+    "cluster": "How-To Guides",
+    "priority": "High",
+    "status": "Active",
+    "cannibalization": "No Issue",
+    "secondaryKeywords": [
+      "how to reduce pdf size",
+      "how to shrink pdf file"
+    ],
+    "notes": "Step-by-step tutorial on optimizing PDF compression DPI and image quality."
+  }
+]

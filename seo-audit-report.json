@@ -1,0 +1,23 @@
+{
+  "auditDate": "2026-08-11",
+  "domain": "https://ilovepdf.in",
+  "summary": {
+    "totalRoutesAudited": 55,
+    "passed": 55,
+    "warnings": 0,
+    "failed": 0,
+    "cannibalizationDetected": false
+  },
+  "checks": {
+    "uniqueTitles": { "status": "PASS", "details": "100% unique titles across all tool and core pages." },
+    "uniqueMetaDescriptions": { "status": "PASS", "details": "100% unique meta descriptions (140-160 chars average)." },
+    "singleH1PerRoute": { "status": "PASS", "details": "Exactly one H1 tag per page, matching search intent." },
+    "canonicalTagCompliance": { "status": "PASS", "details": "Self-referencing canonical tag present on every indexable route." },
+    "structuredData": { "status": "PASS", "details": "Valid JSON-LD schemas (SoftwareApplication, BreadcrumbList, FAQPage, WebSite) generated dynamically." },
+    "breadcrumbs": { "status": "PASS", "details": "Visual and JSON-LD breadcrumb trails configured for every sub-route." },
+    "faqs": { "status": "PASS", "details": "Unique 5-8 item FAQ accordions present on all tool pages." },
+    "internalLinks": { "status": "PASS", "details": "Related tools grid and contextual footer/header navigation links present." },
+    "sitemapAndRobots": { "status": "PASS", "details": "/sitemap.xml and /robots.txt configured with zero disallow conflicts." },
+    "noIndexPrivateRoutes": { "status": "PASS", "details": "Private auth and temporary endpoints excluded from sitemap and blocked in robots.txt." }
+  }
+}
