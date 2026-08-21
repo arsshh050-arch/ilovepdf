@@ -14,13 +14,42 @@ import { registerPublicDynamicRoutes } from './server/routes/publicDynamicRoutes
 
 async function startServer() {
   const app = express();
+  app.set('trust proxy', true);
   const PORT = 3000;
 
   // Enforce WWW canonical domain redirect
   app.use((req, res, next) => {
-    if (req.hostname === 'ilovepdf.in' || req.headers.host === 'ilovepdf.in') {
-      return res.redirect(301, `https://www.ilovepdf.in${req.originalUrl}`);
+    let host = req.headers['x-forwarded-host'] || req.headers.host || req.hostname || '';
+    if (Array.isArray(host)) host = host[0];
+    const primaryHost = host.split(',')[0].trim();
+    
+    // Check if we need to redirect host
+    const needsHostRedirect = (primaryHost === 'ilovepdf.in' || primaryHost.startsWith('ilovepdf.in:'));
+    
+    // Check if we need to redirect path (remove /index.html or trailing slash)
+    let newPath = req.path;
+    if (newPath === '/index.html') {
+      newPath = '/';
+    } else if (newPath.endsWith('.html') && newPath !== '/404.html') {
+      newPath = newPath.substring(0, newPath.length - 5);
+    } else if (newPath !== '/' && newPath.endsWith('/')) {
+      newPath = newPath.replace(/\/+$/, '');
     }
+
+    const needsPathRedirect = newPath !== req.path;
+    
+    if (needsHostRedirect || needsPathRedirect) {
+      const targetHost = needsHostRedirect ? 'www.ilovepdf.in' : primaryHost;
+      // We assume https if they are using the custom domain, otherwise keep relative if no host redirect
+      if (needsHostRedirect) {
+        const query = req.url.includes('?') ? req.url.substring(req.url.indexOf('?')) : '';
+        return res.redirect(301, `https://${targetHost}${newPath === '/' && query === '' ? '' : newPath}${query}`);
+      } else {
+        const query = req.url.slice(req.path.length);
+        return res.redirect(301, `${newPath === '/' && query === '' ? '/' : newPath}${query}`);
+      }
+    }
+    
     next();
   });
 

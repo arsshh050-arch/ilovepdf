@@ -55,10 +55,28 @@ try {
   console.log('No cms_db.json found, using defaults.');
 }
 
+const KNOWN_TOOLS = [
+  'pdf-to-word', 'compress-pdf', 'merge-pdf', 'jpg-to-pdf', 'split-pdf', 'edit-pdf', 'sign-pdf', 'word-to-pdf', 'pdf-to-jpg',
+  'pdf-to-powerpoint', 'pdf-to-excel', 'powerpoint-to-pdf', 'excel-to-pdf', 'watermark-pdf', 'rotate-pdf', 'html-to-pdf', 'unlock-pdf', 'protect-pdf', 'organize-pdf', 'pdf-to-pdfa', 'repair-pdf', 'add-page-numbers', 'scan-to-pdf', 'ocr-pdf', 'compare-pdf', 'redact-pdf', 'crop-pdf', 'pdf-forms', 'ai-pdf-summarizer', 'translate-pdf', 'pdf-to-markdown', 'remove-pages', 'extract-pages', 'png-to-pdf', 'pdf-to-png', 'pdf-to-txt', 'txt-to-pdf', 'pdf-to-html', 'remove-pdf-metadata', 'flatten-pdf', 'extract-pdf-text', 'pdf-question-answer', 'extract-pdf-tables', 'annotate-pdf', 'add-text-pdf', 'add-image-pdf', 'draw-on-pdf'
+];
+
+const KNOWN_PAGES = [
+  '', 'faq', 'about', 'contact', 'contact-us', 'features', 'security', 
+  'privacy-policy', 'privacy', 'terms', 'terms-and-conditions', 
+  'cookie-policy', 'cookies', 'pricing', 'business', 
+  'api', 'developer-api', 'pdf-api', 'developers', 
+  'pdf-tools', 'all-pdf-tools', 'pdf_tools', 'all-tools', 
+  'convert-pdf', 'organize-pdf-tools', 'edit-pdf-tools', 'pdf-security', 'pdf-ai-tools', 'tools'
+];
+
 // 1. Generate Static HTML Routes
 const baseHtml = fs.existsSync('dist/index.html') ? fs.readFileSync('dist/index.html', 'utf8') : '';
 if (baseHtml) {
-  const routes = [
+  
+
+
+
+const routes = [
     { slug: '', title: 'Online PDF Tools for Everyday Document Tasks | iLovePDF.in', desc: 'Use browser-based tools to merge, split, compress, convert, edit and prepare PDF documents for everyday work.', h1: 'Online PDF Tools for Everyday Document Tasks' },
     { slug: 'merge-pdf', title: 'Merge PDF', desc: 'Combine PDFs in the order you want.' },
     { slug: 'split-pdf', title: 'Split PDF', desc: 'Separate one page or a whole set for easy conversion.' },
@@ -89,6 +107,22 @@ if (baseHtml) {
     { slug: 'blog', title: 'Blog', desc: 'PDF guides and tips.' },
     { slug: 'pdf-tools', title: 'All PDF Tools', desc: 'All the tools you need.' },
   ];
+
+
+  KNOWN_TOOLS.forEach(slug => {
+    if (!routes.find(r => r.slug === slug)) {
+      let title = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      if (title.toLowerCase().includes('pdf')) title = title.replace(/pdf/i, 'PDF');
+      routes.push({ slug, title: `${title} - iLovePDF.in`, desc: `Use our ${title} tool online.` });
+    }
+  });
+
+  KNOWN_PAGES.forEach(slug => {
+    if (slug && !routes.find(r => r.slug === slug)) {
+      let title = slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      routes.push({ slug, title: `${title} - iLovePDF.in`, desc: `${title} page of iLovePDF.in` });
+    }
+  });
 
   // Add dynamic tools
   if (cmsData.tools) {
@@ -198,17 +232,9 @@ function escapeXml(unsafe) {
 }
 const domain = 'https://www.ilovepdf.in';
 
-const KNOWN_TOOLS = [
-  'pdf-to-word', 'compress-pdf', 'merge-pdf', 'jpg-to-pdf', 'split-pdf', 'edit-pdf', 'sign-pdf', 'word-to-pdf', 'pdf-to-jpg',
-  'pdf-to-powerpoint', 'pdf-to-excel', 'powerpoint-to-pdf', 'excel-to-pdf', 'watermark-pdf', 'rotate-pdf', 'html-to-pdf', 'unlock-pdf', 'protect-pdf', 'organize-pdf', 'pdf-to-pdfa', 'repair-pdf', 'add-page-numbers', 'scan-to-pdf', 'ocr-pdf', 'compare-pdf', 'redact-pdf', 'crop-pdf', 'pdf-forms', 'ai-pdf-summarizer', 'translate-pdf', 'pdf-to-markdown', 'remove-pages', 'extract-pages', 'png-to-pdf', 'pdf-to-png', 'pdf-to-txt', 'txt-to-pdf', 'pdf-to-html', 'remove-pdf-metadata', 'flatten-pdf', 'extract-pdf-text', 'pdf-question-answer', 'extract-pdf-tables', 'annotate-pdf', 'add-text-pdf', 'add-image-pdf', 'draw-on-pdf'
-];
 
-const KNOWN_PAGES = [
-  '', 'faq', 'about', 'contact', 'features', 'security', 
-  'privacy-policy', 'terms', 'cookie-policy', 'pricing', 
-  'business', 'api', 'pdf-tools', 'convert-pdf', 
-  'organize-pdf-tools', 'edit-pdf-tools', 'pdf-security', 'pdf-ai-tools'
-];
+
+
 
 const today = new Date().toISOString().split('T')[0];
 const addedUrls = new Set();
