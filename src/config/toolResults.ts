@@ -450,27 +450,7 @@ export const TOOL_RESULTS_CONFIG: Record<string, ToolResultConfig> = {
     downloadLabel: 'Download annotated PDF',
     fileExtension: 'pdf',
     mimeType: 'application/pdf',
-    relatedToolIds: ['edit-pdf', 'add-text-pdf', 'watermark', 'protect-pdf', 'compress-pdf'],
-  },
-  'add-text-pdf': {
-    toolId: 'add-text-pdf',
-    slug: '/add-text-pdf',
-    name: 'Add Text to PDF',
-    successTitle: 'Your updated PDF is ready!',
-    downloadLabel: 'Download updated PDF',
-    fileExtension: 'pdf',
-    mimeType: 'application/pdf',
-    relatedToolIds: ['edit-pdf', 'annotate-pdf', 'add-image-pdf', 'add-page-numbers', 'watermark', 'protect-pdf'],
-  },
-  'add-image-pdf': {
-    toolId: 'add-image-pdf',
-    slug: '/add-image-pdf',
-    name: 'Add Image to PDF',
-    successTitle: 'Your updated PDF is ready!',
-    downloadLabel: 'Download updated PDF',
-    fileExtension: 'pdf',
-    mimeType: 'application/pdf',
-    relatedToolIds: ['edit-pdf', 'add-text-pdf', 'watermark', 'compress-pdf', 'protect-pdf', 'merge-pdf'],
+    relatedToolIds: ['edit-pdf', 'watermark', 'protect-pdf', 'compress-pdf'],
   }
 };
 

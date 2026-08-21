@@ -76,8 +76,6 @@ export const PDF_TOOLS: PdfToolConfig[] = [
   { id: 'pdf-question-answer', name: 'PDF Question & Answer', slug: '/pdf-question-answer', description: 'Chat with your PDF and ask questions using AI.', iconName: 'MessageSquareText', iconColor: 'text-violet-500', category: 'ai', isNew: true },
   { id: 'extract-pdf-tables', name: 'Extract PDF Tables', slug: '/extract-pdf-tables', description: 'Intelligently detect and extract tables from PDFs to CSV or Excel.', iconName: 'TableProperties', iconColor: 'text-violet-500', category: 'ai' },
   { id: 'annotate-pdf', name: 'Annotate PDF', slug: '/annotate-pdf', description: 'Add notes, comments, and highlights to your PDF.', iconName: 'Highlighter', iconColor: 'text-purple-500', category: 'edit' },
-  { id: 'add-text-pdf', name: 'Add Text to PDF', slug: '/add-text-pdf', description: 'Type new text directly onto your PDF pages.', iconName: 'Type', iconColor: 'text-purple-500', category: 'edit' },
-  { id: 'add-image-pdf', name: 'Add Image to PDF', slug: '/add-image-pdf', description: 'Insert images, logos or pictures into your document.', iconName: 'ImagePlus', iconColor: 'text-purple-500', category: 'edit' },
 ];
 
 export const getToolsByCategory = (category: ToolCategory) => {

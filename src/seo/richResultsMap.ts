@@ -370,22 +370,6 @@ export const RICH_RESULTS_MAP: Record<string, RouteRichResultsConfig> = {
     schemaTypes: ['BreadcrumbList', 'WebApplication', 'FAQPage'],
     googleSupportedRichResults: ['Breadcrumbs', 'FAQ']
   },
-  '/add-text-pdf': {
-    path: '/add-text-pdf',
-    name: 'Add Text to PDF',
-    isIndexable: true,
-    pageType: 'tool',
-    schemaTypes: ['BreadcrumbList', 'WebApplication', 'FAQPage'],
-    googleSupportedRichResults: ['Breadcrumbs', 'FAQ']
-  },
-  '/add-image-pdf': {
-    path: '/add-image-pdf',
-    name: 'Add Image to PDF',
-    isIndexable: true,
-    pageType: 'tool',
-    schemaTypes: ['BreadcrumbList', 'WebApplication', 'FAQPage'],
-    googleSupportedRichResults: ['Breadcrumbs', 'FAQ']
-  },
 
   // PUBLIC INFORMATION PAGES
   '/faq': {

@@ -132,8 +132,6 @@ export const ALL_CANONICAL_TOOLS: { slug: string; name: string; priority: string
   { slug: 'pdf-question-answer', name: 'Ask PDF with AI', priority: '0.9', changefreq: 'daily' },
   { slug: 'extract-pdf-tables', name: 'Extract Tables from PDF', priority: '0.8', changefreq: 'weekly' },
   { slug: 'annotate-pdf', name: 'Annotate & Markup PDF', priority: '0.8', changefreq: 'weekly' },
-  { slug: 'add-text-pdf', name: 'Add Text to PDF', priority: '0.8', changefreq: 'weekly' },
-  { slug: 'add-image-pdf', name: 'Add Image to PDF', priority: '0.8', changefreq: 'weekly' },
 ];
 
 export const ALL_CANONICAL_PAGES: { slug: string; name: string; priority: string; changefreq: string }[] = [

@@ -623,34 +623,6 @@ export const TOOL_CONFIGURATIONS: Record<string, ToolConfigSchema> = {
     description: 'Add notes, comments, and highlights to your PDF.',
   },
 
-  'add-text-pdf': {
-    id: 'add-text-pdf',
-    title: 'Add Text to PDF',
-    slug: '/add-text-pdf',
-    acceptedFileTypes: ['application/pdf', '.pdf'],
-    multiple: false,
-    minFiles: 1,
-    workspaceType: 'single-preview',
-    primaryButtonText: 'Add Text →',
-    processingMessage: 'Applying text overlays...',
-    outputType: 'pdf',
-    description: 'Type new text directly onto your PDF pages.',
-  },
-
-  'add-image-pdf': {
-    id: 'add-image-pdf',
-    title: 'Add Image to PDF',
-    slug: '/add-image-pdf',
-    acceptedFileTypes: ['application/pdf', '.pdf'],
-    multiple: false,
-    minFiles: 1,
-    workspaceType: 'single-preview',
-    primaryButtonText: 'Insert Image →',
-    processingMessage: 'Inserting image onto PDF...',
-    outputType: 'pdf',
-    description: 'Insert images, logos or pictures into your document.',
-  },
-
   'pdf-question-answer': {
     id: 'pdf-question-answer',
     title: 'PDF Question & Answer',

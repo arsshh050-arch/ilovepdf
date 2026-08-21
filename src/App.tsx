@@ -151,8 +151,6 @@ const PublicRoutes = () => (
                   <Route path="pdf-question-answer" element={<GenericTool />} />
                   <Route path="extract-pdf-tables" element={<GenericTool />} />
                   <Route path="annotate-pdf" element={<GenericTool />} />
-                  <Route path="add-text-pdf" element={<GenericTool />} />
-                  <Route path="add-image-pdf" element={<GenericTool />} />
 
                   <Route path="faq" element={<FaqPage />} />
                   <Route path="about" element={<AboutPage />} />

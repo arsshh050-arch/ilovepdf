@@ -21,8 +21,6 @@ const SplitPdfWorkspace = lazyWithRetry(() =>
 const EDITOR_TOOL_IDS = [
   'edit-pdf',
   'annotate-pdf',
-  'add-text-pdf',
-  'add-image-pdf',
   'sign-pdf',
   'pdf-forms',
 ];
