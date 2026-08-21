@@ -23,7 +23,6 @@ const EDITOR_TOOL_IDS = [
   'annotate-pdf',
   'add-text-pdf',
   'add-image-pdf',
-  'draw-on-pdf',
   'sign-pdf',
   'pdf-forms',
 ];

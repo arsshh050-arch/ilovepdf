@@ -57,7 +57,7 @@ try {
 
 const KNOWN_TOOLS = [
   'pdf-to-word', 'compress-pdf', 'merge-pdf', 'jpg-to-pdf', 'split-pdf', 'edit-pdf', 'sign-pdf', 'word-to-pdf', 'pdf-to-jpg',
-  'pdf-to-powerpoint', 'pdf-to-excel', 'powerpoint-to-pdf', 'excel-to-pdf', 'watermark-pdf', 'rotate-pdf', 'html-to-pdf', 'unlock-pdf', 'protect-pdf', 'organize-pdf', 'pdf-to-pdfa', 'repair-pdf', 'add-page-numbers', 'scan-to-pdf', 'ocr-pdf', 'compare-pdf', 'redact-pdf', 'crop-pdf', 'pdf-forms', 'ai-pdf-summarizer', 'translate-pdf', 'pdf-to-markdown', 'remove-pages', 'extract-pages', 'png-to-pdf', 'pdf-to-png', 'pdf-to-txt', 'txt-to-pdf', 'pdf-to-html', 'remove-pdf-metadata', 'flatten-pdf', 'extract-pdf-text', 'pdf-question-answer', 'extract-pdf-tables', 'annotate-pdf', 'add-text-pdf', 'add-image-pdf', 'draw-on-pdf'
+  'pdf-to-powerpoint', 'pdf-to-excel', 'powerpoint-to-pdf', 'excel-to-pdf', 'watermark-pdf', 'rotate-pdf', 'html-to-pdf', 'unlock-pdf', 'protect-pdf', 'organize-pdf', 'pdf-to-pdfa', 'repair-pdf', 'add-page-numbers', 'scan-to-pdf', 'ocr-pdf', 'compare-pdf', 'redact-pdf', 'crop-pdf', 'pdf-forms', 'ai-pdf-summarizer', 'translate-pdf', 'pdf-to-markdown', 'remove-pages', 'extract-pages', 'png-to-pdf', 'pdf-to-png', 'pdf-to-txt', 'txt-to-pdf', 'pdf-to-html', 'remove-pdf-metadata', 'flatten-pdf', 'extract-pdf-text', 'pdf-question-answer', 'extract-pdf-tables', 'annotate-pdf', 'add-text-pdf', 'add-image-pdf'
 ];
 
 const KNOWN_PAGES = [

@@ -386,14 +386,6 @@ export const RICH_RESULTS_MAP: Record<string, RouteRichResultsConfig> = {
     schemaTypes: ['BreadcrumbList', 'WebApplication', 'FAQPage'],
     googleSupportedRichResults: ['Breadcrumbs', 'FAQ']
   },
-  '/draw-on-pdf': {
-    path: '/draw-on-pdf',
-    name: 'Draw on PDF',
-    isIndexable: true,
-    pageType: 'tool',
-    schemaTypes: ['BreadcrumbList', 'WebApplication', 'FAQPage'],
-    googleSupportedRichResults: ['Breadcrumbs', 'FAQ']
-  },
 
   // PUBLIC INFORMATION PAGES
   '/faq': {

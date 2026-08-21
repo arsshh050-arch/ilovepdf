@@ -651,20 +651,6 @@ export const TOOL_CONFIGURATIONS: Record<string, ToolConfigSchema> = {
     description: 'Insert images, logos or pictures into your document.',
   },
 
-  'draw-on-pdf': {
-    id: 'draw-on-pdf',
-    title: 'Draw on PDF',
-    slug: '/draw-on-pdf',
-    acceptedFileTypes: ['application/pdf', '.pdf'],
-    multiple: false,
-    minFiles: 1,
-    workspaceType: 'single-preview',
-    primaryButtonText: 'Save Drawing →',
-    processingMessage: 'Saving drawings to PDF...',
-    outputType: 'pdf',
-    description: 'Use freehand drawing tools directly on your PDF pages.',
-  },
-
   'pdf-question-answer': {
     id: 'pdf-question-answer',
     title: 'PDF Question & Answer',

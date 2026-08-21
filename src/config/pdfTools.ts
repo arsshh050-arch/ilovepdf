@@ -78,7 +78,6 @@ export const PDF_TOOLS: PdfToolConfig[] = [
   { id: 'annotate-pdf', name: 'Annotate PDF', slug: '/annotate-pdf', description: 'Add notes, comments, and highlights to your PDF.', iconName: 'Highlighter', iconColor: 'text-purple-500', category: 'edit' },
   { id: 'add-text-pdf', name: 'Add Text to PDF', slug: '/add-text-pdf', description: 'Type new text directly onto your PDF pages.', iconName: 'Type', iconColor: 'text-purple-500', category: 'edit' },
   { id: 'add-image-pdf', name: 'Add Image to PDF', slug: '/add-image-pdf', description: 'Insert images, logos or pictures into your document.', iconName: 'ImagePlus', iconColor: 'text-purple-500', category: 'edit' },
-  { id: 'draw-on-pdf', name: 'Draw on PDF', slug: '/draw-on-pdf', description: 'Use freehand drawing tools directly on your PDF pages.', iconName: 'Pencil', iconColor: 'text-purple-500', category: 'edit' },
 ];
 
 export const getToolsByCategory = (category: ToolCategory) => {

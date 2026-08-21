@@ -450,7 +450,7 @@ export const TOOL_RESULTS_CONFIG: Record<string, ToolResultConfig> = {
     downloadLabel: 'Download annotated PDF',
     fileExtension: 'pdf',
     mimeType: 'application/pdf',
-    relatedToolIds: ['edit-pdf', 'add-text-pdf', 'draw-on-pdf', 'watermark', 'protect-pdf', 'compress-pdf'],
+    relatedToolIds: ['edit-pdf', 'add-text-pdf', 'watermark', 'protect-pdf', 'compress-pdf'],
   },
   'add-text-pdf': {
     toolId: 'add-text-pdf',
@@ -471,17 +471,7 @@ export const TOOL_RESULTS_CONFIG: Record<string, ToolResultConfig> = {
     fileExtension: 'pdf',
     mimeType: 'application/pdf',
     relatedToolIds: ['edit-pdf', 'add-text-pdf', 'watermark', 'compress-pdf', 'protect-pdf', 'merge-pdf'],
-  },
-  'draw-on-pdf': {
-    toolId: 'draw-on-pdf',
-    slug: '/draw-on-pdf',
-    name: 'Draw on PDF',
-    successTitle: 'Your updated PDF is ready!',
-    downloadLabel: 'Download updated PDF',
-    fileExtension: 'pdf',
-    mimeType: 'application/pdf',
-    relatedToolIds: ['edit-pdf', 'annotate-pdf', 'sign-pdf', 'add-text-pdf', 'compress-pdf', 'protect-pdf'],
-  },
+  }
 };
 
 export function getToolResultConfig(toolIdOrSlug: string): ToolResultConfig {
