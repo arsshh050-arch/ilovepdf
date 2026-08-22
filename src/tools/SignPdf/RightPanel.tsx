@@ -42,7 +42,10 @@ export function RightPanel({
 
         <div className="space-y-3 mb-8">
           <button
-            onClick={() => setSignMode('simple')}
+            onClick={() => {
+              setSignMode('simple');
+              onAddField('signature');
+            }}
             className={`w-full text-left p-4 rounded-xl border-2 transition-all flex items-start gap-4 ${
               signMode === 'simple' ? 'border-[#E5322D] bg-red-50/20' : 'border-gray-200 hover:border-gray-300'
             }`}

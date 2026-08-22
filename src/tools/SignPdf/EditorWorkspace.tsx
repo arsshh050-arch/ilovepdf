@@ -46,7 +46,7 @@ export function EditorWorkspace({ file, onReset }: { file: File, onReset: () => 
       height: type === 'signature' || type === 'stamp' ? 80 : 40,
     };
     
-    setFields([...fields, newField]);
+    setFields(prev => [...prev, newField]);
 
     if (type === 'signature' || type === 'initials') {
       setPendingFieldId(newField.id);
@@ -55,11 +55,11 @@ export function EditorWorkspace({ file, onReset }: { file: File, onReset: () => 
   };
 
   const handleUpdateField = (id: string, data: Partial<FieldData>) => {
-    setFields(fields.map(f => f.id === id ? { ...f, ...data } : f));
+    setFields(prev => prev.map(f => f.id === id ? { ...f, ...data } : f));
   };
 
   const handleRemoveField = (id: string) => {
-    setFields(fields.filter(f => f.id !== id));
+    setFields(prev => prev.filter(f => f.id !== id));
   };
 
   const handleApplySignature = (dataUrl: string) => {
@@ -167,7 +167,7 @@ export function EditorWorkspace({ file, onReset }: { file: File, onReset: () => 
                   fields={fields.filter(f => f.pageIndex === index + 1)}
                   onUpdateField={handleUpdateField}
                   onRemoveField={handleRemoveField}
-                  onEditSignature={() => setShowSigModal(true)}
+                  onEditSignature={(id) => { setPendingFieldId(id); setShowSigModal(true); }}
                 />
               </div>
             ))}
@@ -187,7 +187,11 @@ export function EditorWorkspace({ file, onReset }: { file: File, onReset: () => 
           onClose={() => {
             setShowSigModal(false);
             if (pendingFieldId) {
-              handleRemoveField(pendingFieldId);
+              // Only remove if it's a new empty field
+              const field = fields.find(f => f.id === pendingFieldId);
+              if (field && !field.value) {
+                handleRemoveField(pendingFieldId);
+              }
               setPendingFieldId(null);
             }
           }} 

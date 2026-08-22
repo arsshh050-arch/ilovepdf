@@ -9,7 +9,7 @@ interface PageCanvasProps {
   fields: FieldData[];
   onUpdateField: (id: string, data: Partial<FieldData>) => void;
   onRemoveField: (id: string) => void;
-  onEditSignature?: () => void;
+  onEditSignature?: (id: string) => void;
 }
 
 export function PageCanvas({ pageIndex, scale, fields, onUpdateField, onRemoveField, onEditSignature }: PageCanvasProps) {
@@ -65,7 +65,7 @@ export function PageCanvas({ pageIndex, scale, fields, onUpdateField, onRemoveFi
           <div className="absolute -top-3 -right-3 opacity-0 group-hover:opacity-100 transition-opacity flex gap-1 z-20">
             {field.type === 'signature' && onEditSignature && (
               <button
-                onClick={onEditSignature}
+                onClick={() => onEditSignature(field.id)}
                 className="bg-blue-500 text-white rounded-full p-1 shadow-md hover:bg-blue-600"
               >
                 <Edit2 size={12} />
