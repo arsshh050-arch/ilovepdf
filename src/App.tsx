@@ -27,6 +27,8 @@ const ProtectPdf = lazyWithRetry(() => import('./tools/ProtectPdf').then(m => ({
 const UnlockPdf = lazyWithRetry(() => import('./tools/UnlockPdf').then(m => ({ default: m.UnlockPdf })));
 const GenericTool = lazyWithRetry(() => import('./tools/GenericTool').then(m => ({ default: m.GenericTool })));
 const EditPdf = lazyWithRetry(() => import('./tools/EditPdf').then(m => ({ default: m.EditPdf })));
+const SignPdf = lazyWithRetry(() => import('./tools/SignPdf').then(m => ({ default: m.SignPdf })));
+const VerifySignaturePage = lazyWithRetry(() => import('./pages/VerifySignaturePage').then(m => ({ default: m.VerifySignaturePage })));
 const GenericInfoPage = lazyWithRetry(() => import('./pages/info/GenericInfoPage').then(m => ({ default: m.GenericInfoPage })));
 const FaqPage = lazyWithRetry(() => import('./pages/FaqPage').then(m => ({ default: m.FaqPage })));
 const AboutPage = lazyWithRetry(() => import('./pages/AboutPage').then(m => ({ default: m.AboutPage })));
@@ -47,7 +49,7 @@ const Login = lazyWithRetry(() => import('./pages/auth/Login').then(m => ({ defa
 const Signup = lazyWithRetry(() => import('./pages/auth/Signup').then(m => ({ default: m.Signup })));
 const ForgotPassword = lazyWithRetry(() => import('./pages/auth/ForgotPassword').then(m => ({ default: m.ForgotPassword })));
 
-const SPECIFIC_TOOLS = ['merge-pdf', 'split-pdf', 'compress-pdf', 'protect-pdf', 'unlock-pdf'];
+const SPECIFIC_TOOLS = ['merge-pdf', 'split-pdf', 'compress-pdf', 'protect-pdf', 'unlock-pdf', 'sign-pdf'];
 const INFO_ROUTES = ['image-tools', 'sign-pdf', 'integrations', 'desktop', 'mobile', 'help'];
 
 
@@ -121,7 +123,7 @@ const PublicRoutes = () => (
                   <Route path="powerpoint-to-pdf" element={<GenericTool />} />
                   <Route path="excel-to-pdf" element={<GenericTool />} />
                   <Route path="edit-pdf" element={<EditPdf />} />
-                  <Route path="sign-pdf" element={<GenericTool />} />
+                  <Route path="sign-pdf" element={<SignPdf />} />
                   <Route path="watermark-pdf" element={<GenericTool />} />
                   <Route path="rotate-pdf" element={<GenericTool />} />
                   <Route path="html-to-pdf" element={<GenericTool />} />
@@ -165,6 +167,7 @@ const PublicRoutes = () => (
                   <Route path="cookie-policy" element={<CookiePolicyPage />} />
                   <Route path="cookies" element={<CookiePolicyPage />} />
                   <Route path="pricing" element={<PricingPage />} />
+                <Route path="verify-signature" element={<VerifySignaturePage />} />
                   <Route path="business" element={<BusinessPage />} />
                   <Route path="api" element={<DeveloperApiPage />} />
                   <Route path="developer-api" element={<DeveloperApiPage />} />
